@@ -1,0 +1,992 @@
+{
+  "blocks": [
+    {
+      "block_id": 0,
+      "source": "Date:Jun2,2026",
+      "translated": "თარიღი: 2 ივნისი, 2026",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 1,
+      "source": "Number:4500000406",
+      "translated": "ნომერი: 4500000406",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 2,
+      "source": "TheBuyer",
+      "translated": "მყიდველი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 3,
+      "source": "Name: JSCRustaviAz.ot-( GERA )",
+      "translated": "სახელი: JSCRustaviAz.ot-(GERA)",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 4,
+      "source": "RegistrationID:404519794",
+      "translated": "რეგისტრაციის ID: 404519794",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 5,
+      "source": "PurchaseAgreement",
+      "translated": "შესყიდვის ხელშეკრულება",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 6,
+      "source": "PartiestotheAgreement",
+      "translated": "შეთანხმების მხარეები",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 7,
+      "source": "Address: JSCRustavi Az.ot Fertilizer-, 2MshvidobaStreet,Rustavi,3700,Rustavi,Tbilisi,Georgia",
+      "translated": "მისამართი: სს რუსთავი აზ.ოტ სასუქი-, საქართველო, რუსთავი, 3700, რუსთავი, რუსთავი, 2 მშვიდობის ქ.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 8,
+      "source": "Representative: JAY JAJOO",
+      "translated": "წარმომადგენელი: ჯეი ჯაჯუ",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 9,
+      "source": "Status :GeneralDirector",
+      "translated": "სტატუსი: გენერალური დირექტორი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 10,
+      "source": "TheSaller",
+      "translated": "სალერი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 11,
+      "source": "Name:GEVendor-IMP",
+      "translated": "სახელი: GEVendor-IMP",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 12,
+      "source": "CorporateForm:GEVendor-IMP",
+      "translated": "კორპორატიული ფორმა: GEVendor-IMP",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 13,
+      "source": "RegistrationID:7778888",
+      "translated": "რეგისტრაციის ID: 7778888",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 14,
+      "source": "Address: Mumbai7132031N",
+      "translated": "მისამართი: მუმბაი 7132031N",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 15,
+      "source": "Country of Registration:India",
+      "translated": "რეგისტრაციის ქვეყანა: ინდოეთი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 16,
+      "source": "Representative:Mr.ShravanModi",
+      "translated": "წარმომადგენელი: ბატონი შრავან მოდი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 17,
+      "source": "Designation:Manager",
+      "translated": "თანამდებობა: მენეჯერი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 18,
+      "source": "ContactPersonEmail:",
+      "translated": "საკონტაქტო პირიელ.ფოსტა:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 19,
+      "source": "Standard Terms of the Agreement",
+      "translated": "შეთანხმების სტანდარტული პირობები",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 20,
+      "source": "1. Article. Subject matterof the Agreement",
+      "translated": "1. მუხლი. შეთანხმების საგანი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 21,
+      "source": "1.1 By signing this Agreement. the Seller undertakes to sell theproductto the Buyer as per the terms determined in this Agreement and the Buyer undertakes to pay the product price as per the terms agreed in this Agreement.",
+      "translated": "1.1 ამ ხელშეკრულების ხელმოწერით, გამყიდველი იღებს ვალდებულებას, მიჰყიდოს პროდუქტი მყიდველს ამ ხელშეკრულებით განსაზღვრული პირობების შესაბამისად, ხოლო მყიდველი იღებს ვალდებულებას, გადაიხადოს პროდუქტის ფასი ამ ხელშეკრულებით შეთანხმებული პირობების შესაბამისად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 22,
+      "source": "2. Article. Product and product price",
+      "translated": "2. მუხლი. პროდუქტი და პროდუქტის ფასი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 23,
+      "source": "2.1 Product description/technical details: The productdescription and the details are provided in the #1 Annex.",
+      "translated": "2.1 პროდუქტის აღწერა/ტექნიკური დეტალები: პროდუქტის აღწერა და დეტალები მოცემულია #1 დანართში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 24,
+      "source": "2.2 The product price Is provided In #1 Annex. Unless otherwise specified In Annex #1, the Indicated price Includes all applicable taxes (includingvAn.",
+      "translated": "2.2 პროდუქტის ფასი მოცემულია #1 დანართში. თუ #1 დანართში სხვა რამ არ არის მითითებული, მითითებული ფასი მოიცავს ყველა შესაბამის გადასახადს (დღგ-ს ჩათვლით).",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 25,
+      "source": "2.3 Payment conditions-theproduct price shall be paid throughthe bank transfer, on the bank account submitted by the Seller to the Buyer. In case if theproduct price is fixed in foreign currency, the Seller is a non-Georgian resident entity/person and theproduct price has to be paid in non-Georgian resident commercial bank account, the payment will be processed in agreed foreign currency. Iftheproduct price has to be paid in Georgian resident commercial bank account. the price will be paid in equivalentamountof GEL, as per theofficial exchange rate determined by the National Bank of Georgia on the day of the transfer.",
+      "translated": "2.3 გადახდის პირობები - პროდუქტის ფასი გადახდილი უნდა იქნას საბანკო გადარიცხვით, გამყიდველის მიერ მყიდველისთვის წარდგენილ საბანკო ანგარიშზე. იმ შემთხვევაში, თუ პროდუქტის ფასი დაფიქსირებულია უცხოურ ვალუტაში, გამყიდველი არის არარეზიდენტი იურიდიული პირი/პირი და პროდუქტის ფასი უნდა გადახდილი იყოს არარეზიდენტი კომერციული საბანკო ანგარიშზე, გადახდა განხორციელდება შეთანხმებულ უცხოურ ვალუტაში. თუ პროდუქტის ფასი უნდა გადახდილი იყოს საქართველოს რეზიდენტ კომერციულ საბანკო ანგარიშზე, ფასი გადახდილი იქნება ლარის ექვივალენტური ოდენობით, გადარიცხვის დღეს საქართველოს ეროვნული ბანკის მიერ დადგენილი ოფიციალური გაცვლითი კურსის შესაბამისად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 26,
+      "source": "2.4 Payment terms - payment terms are provided In #1 annex.",
+      "translated": "2.4 გადახდის პირობები - გადახდის პირობები მოცემულია #1 დანართში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 27,
+      "source": "2.5 Upon the request of the Buyer, the Seller shall ensure the provision ofthe Tax Residence Certificate, issued by the relevant country, In theform satisfactory tothe Buyer, within the reasonable time from the request ofthe Buyer.",
+      "translated": "2.5 მყიდველის მოთხოვნის შემთხვევაში, გამყიდველი უზრუნველყოფს შესაბამისი ქვეყნის მიერ გაცემული საგადასახადო რეზიდენტობის სერტიფიკატის მიწოდებას მყიდველისთვის დამაკმაყოფილებელი ფორმით, მყიდველის მოთხოვნიდან გონივრულ ვადაში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 28,
+      "source": "2.6 The price payable fortheproduct shall not be higher than that stated in the #1 Annex and unless otherwise stated shall be:",
+      "translated": "2.6 პროდუქტისთვის გადასახდელი ფასი არ უნდა იყოს #1 დანართში მითითებულზე მაღალი და თუ სხვა რამ არ არის მითითებული, უნდა იყოს:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 29,
+      "source": "2.6.1 inclusive of all charges includingwithoutlimitation packaging material, packing, shipping, loading, carriage, insurance and aenvery or tne Proaucts to tne aenvery auuress ana any aut1es, imposts, 1ev1es or taxes; ana",
+      "translated": "2.6.1 ყველა გადასახადის ჩათვლით, მათ შორის, შეზღუდვის გარეშე, შესაფუთი მასალის, შეფუთვის, გადაზიდვის, ჩატვირთვის, გადაზიდვის, დაზღვევისა და ტრანსპორტირების ხარჯების ჩათვლით, ასევე ნებისმიერი გადასახადის, გადასახადის, გადასახადის ან სხვა გადასახადის ჩათვლით;",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 30,
+      "source": "2.6.2 fixed for the durationof the Agreement.",
+      "translated": "2.6.2 ფიქსირებულია შეთანხმების ვადით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 31,
+      "source": "2.7 Seller covenants that if it should at any timepriortothedeliveryof the product sold hereunder sell similarproduct in similarquantitiesto any thirdparty at lower prices, itwillnotifythe Buyer in writingof such lower prices, and the Buyer shall be entitledto receive the fullbenefitof such lower prices from the date of such sale to any third party.",
+      "translated": "2.7 გამყიდველი იღებს ვალდებულებას, რომ თუ ის ამ ხელშეკრულებით გაყიდული პროდუქტის მიწოდებამდე ნებისმიერ დროს გაყიდის მსგავს პროდუქტს მსგავსი რაოდენობით ნებისმიერ მესამე მხარეს უფრო დაბალ ფასებში, ის წერილობით აცნობებს მყიდველს ასეთი დაბალი ფასების შესახებ და მყიდველს უფლება ექნება მიიღოს ასეთი დაბალი ფასებით სრული სარგებელი ნებისმიერ მესამე მხარესთან ასეთი გაყიდვის დღიდან.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 32,
+      "source": "2.8 No variation in the price nor extra charges can be made (whether on account of increased material, laborortransport costs, fluctuation In rates of exchange or otherwise) withoutthepriorwritten consent of the Buyer. Any unilateral change of the price by Seller, even partial, shall entitlethe Buyer to cancel the Agreement partiallyortotally as the Buyer considers appropriate without charge or penalty.",
+      "translated": "2.8 ფასის ცვლილება ან დამატებითი გადასახადების დადება (იქნება ეს მასალის, შრომის ან ტრანსპორტირების ხარჯების ზრდის, გაცვლითი კურსის რყევის თუ სხვა მიზეზით) დაუშვებელია მყიდველის წინასწარი წერილობითი თანხმობის გარეშე. გამყიდველის მიერ ფასის ნებისმიერი ცალმხრივი ცვლილება, თუნდაც ნაწილობრივი, მყიდველს უფლებას აძლევს, ნაწილობრივ ან მთლიანად გააუქმოს ხელშეკრულება, როგორც მყიდველი მიიჩნევს მიზანშეწონილად, საკომისიოს ან ჯარიმის გარეშე.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 33,
+      "source": "2.9 Withoutprejudiceto any otherright or remedy, the Buyer reserves the rightto set off any amountowingor asserted to be owing at any timefromthe Seller or associated company of the Seller to the Buyer against any sums payable by the Buyer to the Seller or associated company ofthe Seller.",
+      "translated": "2.9 ნებისმიერი სხვა უფლების ან საშუალების შეუზღუდავად, მყიდველი იტოვებს უფლებას, ნებისმიერ დროს გამყიდველის ან გამყიდველის ასოცირებული კომპანიის მიერ მყიდველისთვის გადასახდელი ნებისმიერი თანხა ჩამოთვალოს ან დაადასტუროს, რომ მას დავალიანება აქვს მყიდველის მიერ გამყიდველის ან გამყიდველის ასოცირებული კომპანიისთვის გადასახდელი ნებისმიერი თანხით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 34,
+      "source": "3. Article. Delivery terms",
+      "translated": "3. მუხლი. მიწოდების პირობები",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 35,
+      "source": "3.1 Delivery time-provided #1 annex.",
+      "translated": "3.1 მიწოდების ვადა - გათვალისწინებულია #1 დანართში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 36,
+      "source": "3.2 Delivery place -provided #1 annex",
+      "translated": "3.2 მიწოდების ადგილი - მოწოდებული #1 დანართი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 37,
+      "source": "3.3 Delivery expenses - all expenses related to the sale and deliveryof the product by the Seller tothe Buyer is included in the product price and shall be borne by the Seller.",
+      "translated": "3.3 მიწოდების ხარჯები - გამყიდველის მიერ პროდუქტის გაყიდვასთან და მყიდველისთვის მიწოდებასთან დაკავშირებული ყველა ხარჯი შედის პროდუქტის ფასში და გაიღებს გამყიდველი.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 38,
+      "source": "3.4 Product delivery- By delivering the product as per the terms ofthis Agreement, the Seller transfers theownershiprights on theproductto the Buyer which shall be furtherconfirmed by the Delivery-Acceptance act, executed among the parties. The Seller shall also be liablefor the transfer of all relevant documentation and informationthat is reasonably necessary forthe use of the product by the Buyer.",
+      "translated": "3.4 პროდუქტის მიწოდება - პროდუქტის ამ შეთანხმების პირობების შესაბამისად მიწოდებით, გამყიდველი გადასცემს პროდუქტზე საკუთრების უფლებას მყიდველს, რაც დამატებით დასტურდება მხარეებს შორის გაფორმებული მიღება-ჩაბარების აქტით. გამყიდველი ასევე პასუხისმგებელია ყველა შესაბამისი დოკუმენტაციისა და ინფორმაციის გადაცემაზე, რომელიც გონივრულად აუცილებელია მყიდველის მიერ პროდუქტის გამოყენებისთვის.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 39,
+      "source": "3.5 If the purchase contract includes the provisionof services, the seller shall obey and take intoconsideration the instructions related tothe services issued by the Buyer.",
+      "translated": "3.5 თუ შესყიდვის ხელშეკრულება მოიცავს მომსახურების გაწევას, გამყიდველი ვალდებულია დაემორჩილოს და გაითვალისწინოს მყიდველის მიერ გაცემული მომსახურებასთან დაკავშირებული ინსტრუქციები.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 40,
+      "source": "3.6 The Product shall be properly packed, clearly labelled and adequately protected against damage and deterioration in transit. The packaging and shipmentof the goods (including hardware, software) and/or licenses shall be mandatorily required to conformto the laws and regulationsofthe Country ofOrigin and delivery. The Seller undertakes to pack, mark and ship the Product in accordance with the requirementof Buyer. Products delivered shall complywith the descriptionor samples or specifications provided by Buyer and shall always be subject todetailedinspection by Buyer for ascertaining whether the same are in conformitywith the requirement or not, and untilthen Buyer shall be deemed to have not accepted such Product and upon any rejectionof Product, the Seller shall be deemed to have failed todeliverthe Product In accordance with this Agreement. In such event, Seller shall at its sole discretion, be entitledtoeither purchase the Product from other sources at Buyer's cost after due noticetothe Buyer. In such an event, the Seller shall be liabletopay/reimburse the Buyer the price at which such Product has been purchased by the Buyer fromother sources. Withoutprejudice to above, the Seller undertakes toindemnify Buyer for any loss or damage suffered by Buyer in this regard.",
+      "translated": "3.6 პროდუქტი უნდა იყოს სათანადოდ შეფუთული, მკაფიოდ მონიშნული და ადეკვატურად დაცული ტრანსპორტირების დროს დაზიანებისა და გაფუჭებისგან. საქონლის (მათ შორის აპარატურის, პროგრამული უზრუნველყოფის) და/ან ლიცენზიების შეფუთვა და გადაზიდვა სავალდებულოდ უნდა შეესაბამებოდეს წარმოშობისა და მიწოდების ქვეყნის კანონებსა და რეგულაციებს. გამყიდველი იღებს ვალდებულებას, შეფუთოს, მონიშნოს და გადაზიდოს პროდუქტი მყიდველის მოთხოვნების შესაბამისად. მიწოდებული პროდუქტები უნდა შეესაბამებოდეს მყიდველის მიერ მოწოდებულ აღწერას ან ნიმუშებს ან სპეციფიკაციებს და ყოველთვის ექვემდებარება მყიდველის მიერ დეტალურ შემოწმებას იმის დასადგენად, შეესაბამება თუ არა ისინი მოთხოვნას, და მანამდე მყიდველი ჩაითვლება, რომ არ მიიღო ასეთი პროდუქტი და პროდუქტზე უარის თქმის შემთხვევაში, გამყიდველი ჩაითვლება, რომ ვერ მიაწოდა პროდუქტი ამ შეთანხმების შესაბამისად. ასეთ შემთხვევაში, გამყიდველს, საკუთარი შეხედულებისამებრ, უფლება აქვს შეიძინოს პროდუქტი სხვა წყაროებიდან მყიდველის ხარჯებით, მყიდველისთვის სათანადო შეტყობინების შემდეგ. ასეთ შემთხვევაში, გამყიდველი ვალდებულია გადაუხადოს/აუნაზღაუროს მყიდველს ის ფასი, რომლითაც ასეთი პროდუქტი შეიძინა მყიდველმა სხვა წყაროებიდან. ზემოაღნიშნულის მიუკერძოებლად, გამყიდველი იღებს ვალდებულებას, აუნაზღაუროს მყიდველს ნებისმიერი დანაკარგი ან ზიანი, რომელიც მყიდველმა განიცადა ამასთან დაკავშირებით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 41,
+      "source": "3. 7 Insurance - Unless otherwise agreed in writing in the Agreement, the Seller shall insure the products up tothe agreed pointofdelivery and thereafteritwill be Buyer's responsibilityto insure the Products. Any insurance policy taken out by the Seller must cover all damage and loss tothe Products up thefull insurable value of the Products. Notwithstanding any otherprovisionof this Agreement, in the event of any damage to the Products before thetitle passes to Buyer, the Buer shall be entitledto receive the proceeds of any Insurance policy taken out by the Seller up totheamount due to Buyer.",
+      "translated": "3. 7 დაზღვევა - თუ ხელშეკრულებით წერილობით სხვა რამ არ არის შეთანხმებული, გამყიდველი ვალდებულია დააზღვიოს პროდუქცია მიწოდების შეთანხმებულ თარიღამდე და ამის შემდეგ პროდუქციის დაზღვევა მყიდველის პასუხისმგებლობაა. გამყიდველის მიერ გაფორმებული ნებისმიერი სადაზღვევო პოლისი უნდა ფარავდეს პროდუქციის ყველა ზიანსა და დანაკარგს პროდუქციის სრული დაზღვევის ღირებულების ოდენობით. ამ ხელშეკრულების ნებისმიერი სხვა დებულების მიუხედავად, პროდუქციის ნებისმიერი დაზიანების შემთხვევაში, სანამ საკუთრების უფლება მყიდველზე გადავა, მყიდველს უფლება აქვს მიიღოს გამყიდველის მიერ გაფორმებული ნებისმიერი სადაზღვევო პოლისიდან მიღებული შემოსავალი მყიდველისთვის გადასახდელი თანხის ოდენობით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 42,
+      "source": "3.8 Title and Risk ofloss:",
+      "translated": "3.8 საკუთრების უფლება და დანაკარგის რისკი:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 43,
+      "source": "3.8.1 Domestic Purchases - The titlefor the products shall pass fromthe Seller to the Buyer when the Products are delivered at tne agreea point or aenvery or wnen tne Buyer nas pa1a ror tne Proaucts m part or m run, wnicnever 1s earner. Tne nsK or loss ror the products shall remain with the Seller until the products are delivered at the agreed pointofdelivery and accepted by the Buyer.",
+      "translated": "3.8.1 შიდა შესყიდვები - პროდუქტებზე საკუთრების უფლება გამყიდველიდან მყიდველზე გადადის შეთანხმებულ დროს ან ნებისმიერ დროს, როდესაც მყიდველი იხდის პროდუქტებს ნაწილობრივ ან ნაწილობრივ, ნებისმიერ დროს. პროდუქტების დაკარგვის ან დანაკარგის შემთხვევაში, ისინი გამყიდველთან რჩება მანამ, სანამ პროდუქტები არ მიეწოდება შეთანხმებულ მიწოდების დროს და არ მიიღება მყიდველის მიერ.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 44,
+      "source": "3.8.2 International Purchases - Unless otherwise agreed in writing in the Agreement, the title and risk of loss fortheproducts shall pass from the Seller to the Buyer in accordance with lncoterms 2020 on a DDP basis.",
+      "translated": "3.8.2 საერთაშორისო შესყიდვები - თუ ხელშეკრულებით წერილობით სხვა რამ არ არის შეთანხმებული, პროდუქციის საკუთრების უფლება და დანაკარგის რისკი გადადის გამყიდველიდან მყიდველზე 2020 წლის საერთაშორისო ტერმინების შესაბამისად, DDP პრინციპით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 45,
+      "source": "4. Article. Representations and warranties",
+      "translated": "4. მუხლი. განცხადებები და გარანტიები",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 46,
+      "source": "4.1 Each party hereby represents and warrants as follows:",
+      "translated": "4.1 თითოეული მხარე ამით აცხადებს და იძლევა გარანტიას შემდეგის შესახებ:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 47,
+      "source": "4.1.1 Due Incorporation-It Is adulyIncorporated Company validly existing underthe law of Its jurisdictionofIncorporation and has the powertoown its product and carry on its business as it is being conducted.",
+      "translated": "4.1.1 სათანადო რეგისტრაცია - ეს არის სათანადოდ რეგისტრაციის მქონე კომპანია, რომელიც მოქმედია მისი იურისდიქციის კანონმდებლობის შესაბამისად და აქვს უფლებამოსილება ფლობდეს თავის პროდუქტს და აწარმოოს თავისი საქმიანობა მიმდინარეობისას.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 48,
+      "source": "4.1.2 Powers -It has the power and authorityto execute, deliver and perform Its obligationsunderthis Agreement and the transactions contemplated by it. No limit on its powers will be exceeded as a result of execution of this Agreement.",
+      "translated": "4.1.2 უფლებამოსილებები - მას აქვს უფლებამოსილება და უფლებამოსილება, შეასრულოს, განახორციელოს და შეასრულოს ამ შეთანხმებით და მისით გათვალისწინებული ტრანზაქციებით გათვალისწინებული ვალდებულებები. ამ შეთანხმების შესრულების შედეგად მისი უფლებამოსილებების არანაირი შეზღუდვა არ გადაიჭრება.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 49,
+      "source": "4.1.3 Authorisations-It has taken all necessary action and obtained all required or desirable authorisationsto enable itto execute, deliver and perform its obligationsunderthis Agreement. Any such authorisations are in full force and effect.",
+      "translated": "4.1.3 უფლებამოსილებები - მან მიიღო ყველა საჭირო ქმედება და ყველა საჭირო ან სასურველი უფლებამოსილება, რათა შეძლოს ამ შეთანხმებით გათვალისწინებული ვალდებულებების შესრულება, შესრულება და შესრულება. ასეთი უფლებამოსილებები სრულად ძალაშია.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 50,
+      "source": "4.2 The Seller additionally represents and warrants as follows:",
+      "translated": "4.2 გამყიდველი დამატებით აცხადებს და იძლევა გარანტიას შემდეგზე:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 51,
+      "source": "4.2.1 The sale oftheproduct by the Seller and using it by Buyer willnot result in breaching any effectiveregulationof Georgia.",
+      "translated": "4.2.1 გამყიდველის მიერ პროდუქტის გაყიდვა და მყიდველის მიერ მისი გამოყენება არ გამოიწვევს საქართველოს არცერთი მოქმედი რეგულაციის დარღვევას.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 52,
+      "source": "4.2.2 It has provided all relevant and necessary informationabout the productto the Buyer.",
+      "translated": "4.2.2 მან მყიდველს მიაწოდა პროდუქტის შესახებ ყველა შესაბამისი და საჭირო ინფორმაცია.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 53,
+      "source": "4.2.3 It complies with all applicable requirements of Georgian legislation, as well as International standards and best practices governing its activities and operations.",
+      "translated": "4.2.3 ის შეესაბამება საქართველოს კანონმდებლობის ყველა მოქმედ მოთხოვნას, ასევე საერთაშორისო სტანდარტებსა და საუკეთესო პრაქტიკას, რომლებიც არეგულირებს მის საქმიანობასა და ოპერაციებს.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 54,
+      "source": "4.2.4 The Seller represents and warrants tothe Buyer that the Products shall be of satisfactory quality, material and workmanship, merchantable, free ofdefect in design, material and workmanship and fitfor any purpose forwhichthey are intended and shall conformto the specifications and quantity set forth in the Order. In addition, the Seller represents and warrants that (a) the Products shall be adequately contained, packaged or labeled and shall conformto the affirmationsof fact stated thereon, (b) the Products willcomplywith all applicable guidelines, standards, laws and regulations, includingwithoutlimitation any voluntary codes ofconductrelating to the Products and their sale, use and supply (c) in performingitsobligations hereunder, the Seller shall fullycomplywith all applicable guidelines, standards, laws and regulations, {d) the Products or the Intended use thereof do notinfringetheintellectualpropertyrightsof any third party, and (e) any services included in the Products shall be performed in a professional manner, in accordance withapplicableindustry standards. Seller further represents and warrants that It Is able to transfer and does transfer to the Buyer good and marketable titleto the Products. All the representations and warranties set forth in thisarticle shall survive acceptance of the Products and shall be in addition to any other warranties, express orimplied, available tothe Buyer. Neitherinspectionnor acceptance ofthe Products shall impair any of the foregoing warranties.",
+      "translated": "4.2.4 გამყიდველი აცხადებს და იძლევა გარანტიას მყიდველის წინაშე, რომ პროდუქტები იქნება დამაკმაყოფილებელი ხარისხის, მასალისა და დამზადების, ვარგისი, დიზაინის, მასალისა და დამზადების დეფექტების გარეშე და შესაფერისი ნებისმიერი დანიშნულებისთვის, რისთვისაც ისინი განკუთვნილია და შეესაბამება შეკვეთაში მითითებულ სპეციფიკაციებსა და რაოდენობას. გარდა ამისა, გამყიდველი აცხადებს და იძლევა გარანტიას, რომ (ა) პროდუქტები იქნება სათანადოდ შეფუთული, შეფუთული ან ეტიკეტირებული და შეესაბამება მასში მითითებულ ფაქტებს, (ბ) პროდუქტები შეესაბამება ყველა შესაბამის მითითებას, სტანდარტს, კანონსა და რეგულაციას, მათ შორის, შეზღუდვის გარეშე, პროდუქტებთან და მათ გაყიდვასთან, გამოყენებასა და მიწოდებასთან დაკავშირებული ნებისმიერი ნებაყოფლობითი ქცევის კოდექსს (გ) ამ ხელშეკრულებით გათვალისწინებული ვალდებულებების შესრულებისას, გამყიდველი სრულად დაიცავს ყველა შესაბამის მითითებას, სტანდარტს, კანონსა და რეგულაციას, {დ) პროდუქტები ან მათი დანიშნულებისამებრ გამოყენება არ არღვევს მესამე მხარის ინტელექტუალური საკუთრების უფლებებს და (ე) პროდუქტებში შემავალი ნებისმიერი მომსახურება უნდა შესრულდეს პროფესიონალურად, მოქმედი ინდუსტრიული სტანდარტების შესაბამისად. გამყიდველი ასევე აცხადებს და იძლევა გარანტიას, რომ მას შეუძლია გადასცეს და გადასცემს მყიდველს პროდუქტებზე საკუთრების უფლების ქონების სანდო და რეალიზებადი უფლების დამადასტურებელი დოკუმენტი. ამ მუხლში მოცემული ყველა განცხადება და გარანტია ძალაში დარჩება პროდუქტების მიღების შემდეგ და წარმოადგენს მყიდველისთვის ხელმისაწვდომ ნებისმიერ სხვა გარანტიას, როგორც პირდაპირ, ასევე ნაგულისხმევს. პროდუქტების არც შემოწმება და არც მიღება არ შეაფერხებს ზემოთ მოცემული გარანტიების მოქმედებას.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 55,
+      "source": "4.3 Each party acknowledges thatthe representations and warranties under this article were Issued by parties forthe purposes of the executionof this Agreement and the counterparty relies on these representations and warranties whilesigningthis Agreement.",
+      "translated": "4.3 თითოეული მხარე აღიარებს, რომ ამ მუხლით გათვალისწინებული განცხადებები და გარანტიები მხარეებმა გასცეს ამ შეთანხმების შესრულების მიზნებისთვის და მეორე მხარე ეყრდნობა ამ განცხადებებსა და გარანტიებს ამ შეთანხმების ხელმოწერისას.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 56,
+      "source": "5. Article. Rights and obligationsof the parties",
+      "translated": "5. მუხლი. მხარეთა უფლებები და მოვალეობები",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 57,
+      "source": "5.1 The Byer Is entitled to:",
+      "translated": "5.1 მყიდველს უფლება აქვს:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 58,
+      "source": "5.1.1 Request the deliveryoftheproduct as per thequality and details agreed among the parties.",
+      "translated": "5.1.1 მოითხოვოს პროდუქტის მიწოდება მხარეებს შორის შეთანხმებული ხარისხისა და დეტალების შესაბამისად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 59,
+      "source": "5.1.2 Request the due, timely and good-faith performance of the obligations by the Seller.",
+      "translated": "5.1.2 მოითხოვოს გამყიდველის მიერ ვალდებულებების სათანადო, დროული და კეთილსინდისიერი შესრულება.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 60,
+      "source": "5.2 The Buyer is obligated to: 5.2.1 Pay tne proauct price as per tne terms agreea in tms Agreement.",
+      "translated": "5.2 მყიდველი ვალდებულია: 5.2.1 გადაიხადოს პროდუქტის ფასი TMS ხელშეკრულებით გათვალისწინებული პირობების შესაბამისად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 61,
+      "source": "5.2.2 Duly perform all otherobligationsdetermined in this Agreement.",
+      "translated": "5.2.2 სათანადოდ შეასრულოს ამ შეთანხმებით განსაზღვრული ყველა სხვა ვალდებულება.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 62,
+      "source": "5.3 The Seller is entitled to:",
+      "translated": "5.3 გამყიდველს უფლება აქვს:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 63,
+      "source": "5.3.1 Request the payment oftheproduct price as per the terms and conditionsdetermined in this Agreement.",
+      "translated": "5.3.1 მოითხოვოს პროდუქტის ფასის გადახდა ამ შეთანხმებაში განსაზღვრული პირობებისა და წესების შესაბამისად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 64,
+      "source": "5.4 The Seller is obligated to:",
+      "translated": "5.4 გამყიდველი ვალდებულია:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 65,
+      "source": "5.4.1 Deliver theproductto the Buyer at its own cost and expense and in compliance withthe agreed quality and conditions.",
+      "translated": "5.4.1 მიაწოდოს პროდუქტი მყიდველს საკუთარი ხარჯებით და შეთანხმებული ხარისხისა და პირობების დაცვით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 66,
+      "source": "5.4.2 Deliver theproductto the Buyer on the agreed delivery place.",
+      "translated": "5.4.2 მიაწოდოს პროდუქტი მყიდველს შეთანხმებულ მიწოდების ადგილას.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 67,
+      "source": "5.4.3 Ensure the dispatch oforiginaldocuments (Invoice, packing list, B/L or CMR oralrwayblll, custom declaration, Certificate of Origin, Certificate of Quality, or any other specific document required by the Buyer) through DHL I Fedex or otherequivalent international express mail service, within3working days from the date of the dispatch ofthe goods. The Seller has to send the scan copies of the same documentthrough the e-mail to the Buyer, tothe e-mail address provided by the Buyer.",
+      "translated": "5.4.3 უზრუნველყოს ორიგინალი დოკუმენტების (ინვოისი, შეფუთვის სია, B/L ან CMR ორალური გზავნილი, საბაჟო დეკლარაცია, წარმოშობის სერტიფიკატი, ხარისხის სერტიფიკატი ან მყიდველის მიერ მოთხოვნილი ნებისმიერი სხვა კონკრეტული დოკუმენტი) გაგზავნა DHL-ის, FedEx-ის ან სხვა ეკვივალენტური საერთაშორისო ექსპრეს ფოსტის სერვისის მეშვეობით, საქონლის გაგზავნიდან 3 სამუშაო დღის განმავლობაში. გამყიდველმა იმავე დოკუმენტის სკანირებული ასლები უნდა გაუგზავნოს მყიდველს ელექტრონული ფოსტით, მყიდველის მიერ მითითებულ ელექტრონულ ფოსტაზე.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 68,
+      "source": "6. Article. Quality and guarantee",
+      "translated": "6. მუხლი. ხარისხი და გარანტია",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 69,
+      "source": "6.1 The Seller undertakes todeliver Products of the quantity,quality and descriptionwhich correspond strictlyto the technical specifications, quantity and description In this Agreement and/orthe sample accepted by the Buyer and/or In any applicablespecificationsupplied by the Buyer to the Seller. The Buyer's weightsand/or measurements shall govern. The Products shall be withoutfault and shall be new and unused unless otherwise specified. The Seller shall complywith all applicable guidelines, standards, laws and regulations concerning the manufacture, packaging, packing and deliveryof the Products. Upon reasonable prior notice, the Buyer shall have the rightto inspect and test the Products, includingwithoutlimitation at the loading port, and the Seller shall facilitate any such request. The Buyer may return any rejected Products at the Seller's risk and expense and/or require the Seller to replace any rejected Products withina reasonable time as stipulated by the Buyer. The rightto reject shall extend to the whole or any part ofa consignment. The Seller shall reimburse the Buer for all costs, losses, damages and expenses incurred by the Buyer which are in any way attributableto the Seller's failure to provide Products which are compliant withtheapplicable technical specifications, quantity and descriptionand/or the rejectionofthe Products, includingwithout limitation any expenditure incurred by the Buyer in obtainingotherproducts to replace the rejected Products, loss ofprofits and the cost ofcollection.",
+      "translated": "6.1 გამყიდველი იღებს ვალდებულებას, მიაწოდოს პროდუქცია იმ რაოდენობის, ხარისხისა და აღწერილობის შესაბამისად, რომელიც მკაცრად შეესაბამება ამ შეთანხმებაში მითითებულ ტექნიკურ მახასიათებლებს, რაოდენობასა და აღწერილობას და/ან მყიდველის მიერ მიღებულ ნიმუშს და/ან მყიდველის მიერ გამყიდველისთვის მიწოდებულ ნებისმიერ შესაბამის სპეციფიკაციაში. მყიდველის წონა და/ან ზომები იქნება გადამწყვეტი. პროდუქცია უნდა იყოს უნაკლო და ახალი და გამოუყენებელი, თუ სხვა რამ არ არის მითითებული. გამყიდველი ვალდებულია დაიცვას ყველა შესაბამისი მითითება, სტანდარტი, კანონი და რეგულაცია პროდუქციის წარმოებასთან, შეფუთვასთან, შეფუთვასთან და მიწოდებასთან დაკავშირებით. გონივრული წინასწარი შეტყობინების შემდეგ, მყიდველს უფლება აქვს შეამოწმოს და გამოსცადოს პროდუქცია, მათ შორის, შეზღუდვის გარეშე, ჩატვირთვის პორტში, და გამყიდველი ვალდებულია ხელი შეუწყოს ნებისმიერ ასეთ მოთხოვნას. მყიდველს შეუძლია დააბრუნოს ნებისმიერი უარყოფილი პროდუქტი გამყიდველის რისკითა და ხარჯებით და/ან მოსთხოვოს გამყიდველს შეცვალოს ნებისმიერი უარყოფილი პროდუქტი მყიდველის მიერ განსაზღვრულ გონივრულ ვადაში. უარყოფის უფლება ვრცელდება ტვირთის მთლიან ან ნებისმიერ ნაწილზე. გამყიდველი აანაზღაურებს მყიდველს ყველა ხარჯს, დანაკარგს, ზიანსა და ხარჯს, რომელიც გაწეულია მყიდველის მიერ, რაც რაიმე ფორმით გამოწვეულია გამყიდველის მიერ შესაბამისი ტექნიკური სპეციფიკაციების, რაოდენობისა და აღწერილობის შესაბამისი პროდუქციის მიწოდების შეუძლებლობით და/ან პროდუქციის უარყოფით, მათ შორის, შეზღუდვის გარეშე, მყიდველის მიერ გაწეული ნებისმიერი ხარჯი უარყოფილი პროდუქციის შესაცვლელად სხვა პროდუქტების მოპოვებასთან, მოგების დაკარგვასთან და შეგროვების ხარჯებთან.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 70,
+      "source": "6.2 Guarantee term (if applicable) shall be provided in #1 annex.",
+      "translated": "6.2 გარანტიის ვადა (ასეთის არსებობის შემთხვევაში) მოცემულია #1 დანართში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 71,
+      "source": "6.3 If the delivered product does not meet the agreed quality standards and criteria,within the guarantee term, the Seller shall ensure the replacement of the productwith new productof the agreed quality,within2working days from the date of the request of the Buyer.",
+      "translated": "6.3 თუ მიწოდებული პროდუქტი არ აკმაყოფილებს შეთანხმებულ ხარისხის სტანდარტებსა და კრიტერიუმებს, გარანტიის ვადის განმავლობაში, გამყიდველი უზრუნველყოფს პროდუქტის შეცვლას შეთანხმებული ხარისხის ახალი პროდუქტით, მყიდველის მოთხოვნიდან 2 სამუშაო დღის განმავლობაში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 72,
+      "source": "6.4 The guarantee shall notapplyto any damages or defects oftheproduct Incurred by thefaultofthe Buyer. The fact whether the damage is caused by the faultof the Buyer or not, shall be determinedindividuallyfor each case.",
+      "translated": "6.4 გარანტია არ ვრცელდება პროდუქტის რაიმე დაზიანებაზე ან დეფექტზე, რომელიც გამოწვეულია მყიდველის ბრალით. ის ფაქტი, გამოწვეულია თუ არა ზიანი მყიდველის ბრალით, განისაზღვრება ინდივიდუალურად თითოეული შემთხვევისთვის.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 73,
+      "source": "6.5 The Seller shall be responsible forthecorrectionof any damages/defects at its cost.",
+      "translated": "6.5 გამყიდველი პასუხისმგებელია ნებისმიერი დაზიანების/დეფექტის გამოსწორებაზე საკუთარი ხარჯებით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 74,
+      "source": "7. Article. Qualitycontrol and product defect",
+      "translated": "7. მუხლი. ხარისხის კონტროლი და პროდუქტის დეფექტი",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 75,
+      "source": "7.1 In case iftheproduct does not meet the agreed criteria and quality standards, the Buyer shall be entitled to: A) Instruct the Seller to correct theproductdefect at its own cost withintheadditionaltimedetermined by the Buyer, and/ or B) Correct the product defect at its own cost and request the Seller to reimburse all such costs as a damage or deduct these costs from any payables of the Buyer to the Seller, and/or C) Ensure the valuationofthetotal costs of defect correction and request the Seller to decrease the price proportionally or deduct these costs from any payables of the Buyer to the Seller. 7.2 In case if the Seller fails to correct the product defect within the additionaltimedetermined by the Buyer, or if depending on the circumstances the Buyer has lost interest the correctionof defect (therefore determining the additionaltime is no longer relevant), the Buyer is entitledtoterminatethis Agreement unilaterally and request thereimbursementof damages.",
+      "translated": "7.1 იმ შემთხვევაში, თუ პროდუქტი არ აკმაყოფილებს შეთანხმებულ კრიტერიუმებსა და ხარისხის სტანდარტებს, მყიდველს უფლება აქვს: ა) დაავალოს გამყიდველს, გამოასწოროს პროდუქტის დეფექტი საკუთარი ხარჯებით მყიდველის მიერ განსაზღვრულ ვადაში და/ან ბ) გამოასწოროს პროდუქტის დეფექტი საკუთარი ხარჯებით და მოსთხოვოს გამყიდველს ყველა ასეთი ხარჯის ანაზღაურება ზიანის სახით ან ამ ხარჯების გამოკლება მყიდველის მიერ გამყიდველისთვის გადასახდელი ნებისმიერი ვალდებულებიდან და/ან გ) უზრუნველყოს დეფექტის გამოსწორების მთლიანი ხარჯების შეფასება და მოსთხოვოს გამყიდველს ფასის პროპორციულად შემცირება ან ამ ხარჯების გამოკლება მყიდველის მიერ გამყიდველისთვის გადასახდელი ნებისმიერი ვალდებულებიდან. 7.2 იმ შემთხვევაში, თუ გამყიდველი ვერ შეძლებს პროდუქტის დეფექტის გამოსწორებას მყიდველის მიერ განსაზღვრულ დამატებით ვადაში, ან თუ გარემოებებიდან გამომდინარე, მყიდველმა დაკარგა ინტერესი დეფექტის გამოსწორების მიმართ (შესაბამისად, დამატებითი ვადის დადგენა აღარ არის აქტუალური), მყიდველს უფლება აქვს ცალმხრივად შეწყვიტოს ეს შეთანხმება და მოითხოვოს ზიანის ანაზღაურება.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 76,
+      "source": "7.3 For the avoidance of all doubts, parties hereby agree thatthefullorpartial use oftherightsgrantedto the Buyer as per the paragraph 1of this article shall be the discretionofthe Buyer and the Buyer's decision notto use these rights in full or partially, shall not mean that the Buyer has withdrawn these rightsforfuture use.",
+      "translated": "7.3 ყოველგვარი ეჭვის თავიდან ასაცილებლად, მხარეები თანხმდებიან, რომ მყიდველისთვის ამ მუხლის პირველი პუნქტის შესაბამისად მინიჭებული უფლებების სრული ან ნაწილობრივი გამოყენება მყიდველის შეხედულებისამებრ ხდება და მყიდველის გადაწყვეტილება, სრულად ან ნაწილობრივ არ გამოიყენოს ეს უფლებები, არ ნიშნავს იმას, რომ მყიდველმა უარი თქვა ამ უფლებებზე მომავალი გამოყენებისთვის.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 77,
+      "source": "7.4 Performance defect - Parties hereby agree that considering thecomplexity and the scale of the Buyer's business operations, the valuationof the productquality by the Buyer may be time-consuming procedure. Therefore, the Buyer shall be entitledtosubmit Its claim to the Seller regarding the visibleproduct defects no later than within 30 working days from the date of executionof the final deliver-acceptance act among the parties. The Buyer shall be entitledtosubmitthe claims regarding the hidden product defects within 30 working days from the date when such defect should have been identified by all reasonable standards. Parties hereby confirmthatexecutionofthe final delivery-acceptance act and the payment oftheproduct price shall not mean thatthe Buyer has no claims in relation totheproductquality.",
+      "translated": "7.4 შესრულების დეფექტი - მხარეები ამით თანხმდებიან, რომ მყიდველის ბიზნეს ოპერაციების სირთულისა და მასშტაბის გათვალისწინებით, მყიდველის მიერ პროდუქტის ხარისხის შეფასება შეიძლება იყოს დროის მომთხოვნი პროცედურა. შესაბამისად, მყიდველს უფლება აქვს წარუდგინოს გამყიდველს თავისი პრეტენზია პროდუქტის თვალსაჩინო დეფექტებთან დაკავშირებით მხარეებს შორის საბოლოო მიღება-ჩაბარების აქტის გაფორმებიდან არაუგვიანეს 30 სამუშაო დღისა. მყიდველს უფლება აქვს წარადგინოს პრეტენზიები ფარულ პროდუქტის დეფექტებთან დაკავშირებით 30 სამუშაო დღის განმავლობაში იმ დღიდან, როდესაც ასეთი დეფექტი უნდა გამოვლენილიყო ყველა გონივრული სტანდარტით. მხარეები ამით ადასტურებენ, რომ საბოლოო მიღება-ჩაბარების აქტის გაფორმება და პროდუქტის ფასის გადახდა არ ნიშნავს, რომ მყიდველს არ აქვს პრეტენზიები პროდუქტის ხარისხთან დაკავშირებით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 78,
+      "source": "8. Article.Liabilityofthe parties",
+      "translated": "8. მუხლი. მხარეთა პასუხისმგებლობა",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 79,
+      "source": "8.1 Parties shall reimburse each otherthe damages arising outof the non-performanceof the obligations as per the rules determined by the applicable law and this Agreement. The reimbursementof damages shall not discharge the relevant party from the dutyto perform its obligations and shall not release the breaching partyfrom any potential sanctions (includingbutnot limitedtothe penalty, etc.) determined by theapplicable law or this Agreement.",
+      "translated": "8.1 მხარეები ერთმანეთს აუნაზღაურებენ ვალდებულებების შეუსრულებლობით გამოწვეულ ზიანს, მოქმედი კანონმდებლობითა და ამ შეთანხმებით განსაზღვრული წესების შესაბამისად. ზიანის ანაზღაურება არ ათავისუფლებს შესაბამის მხარეს ვალდებულებების შესრულების ვალდებულებისგან და არ ათავისუფლებს დამრღვევ მხარეს მოქმედი კანონმდებლობით ან ამ შეთანხმებით განსაზღვრული ნებისმიერი პოტენციური სანქციისგან (მათ შორის, მაგრამ არა მხოლოდ, ჯარიმისგან და ა.შ.).",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 80,
+      "source": "8.2 In case the Seller fails todeliver the productwithin the time agreed in this Agreement, the Buyer shall be entitledto Impose a financial penalty on the Seller as follows: For delays up to 30 days, apenaltyof 0.02% of the total value of this Agreement per day, applicable from the 1st day of delay; For delays exceeding 30 days butnot more than 90 days, apenaltyof 0.05% of the total value of this Agreement per day, applicablefrom the 1st day of delay; For delays exceeding 90 days, apenaltyof 0.10% of the total value ofthis Agreement per day, applicable from the 1st day of delay. The Buyer shall also be entitled to deduct any accrued penalty from any amount payable tothe Seller, withoutrequiringadditional consent. The Seller shall ensure payment of the accrued penaltywithin5working days from the date of such request by the Buyer.",
+      "translated": "8.2 იმ შემთხვევაში, თუ გამყიდველი ვერ შეძლებს პროდუქტის მიწოდებას ამ ხელშეკრულებით შეთანხმებულ ვადაში, მყიდველს უფლება აქვს დააკისროს გამყიდველს ფინანსური ჯარიმა შემდეგი სახით: 30 დღემდე დაგვიანებისთვის, ჯარიმა ამ ხელშეკრულების მთლიანი ღირებულების 0.02%-ის ოდენობით დღეში, რომელიც ძალაში შედის დაგვიანების პირველი დღიდან; 30 დღეზე მეტი, მაგრამ არაუმეტეს 90 დღის დაგვიანებისთვის, ჯარიმა ამ ხელშეკრულების მთლიანი ღირებულების 0.05%-ის ოდენობით დღეში, რომელიც ძალაში შედის დაგვიანების პირველი დღიდან; 90 დღეზე მეტი დაგვიანებისთვის, ჯარიმა ამ ხელშეკრულების მთლიანი ღირებულების 0.10%-ის ოდენობით დღეში, რომელიც ძალაში შედის დაგვიანების პირველი დღიდან. მყიდველს ასევე უფლება აქვს, გამყიდველისთვის გადასახდელი ნებისმიერი თანხიდან გამოაკლოს ნებისმიერი დარიცხული ჯარიმა, დამატებითი თანხმობის გარეშე. გამყიდველი უზრუნველყოფს დარიცხული ჯარიმის გადახდას მყიდველის მიერ ასეთი მოთხოვნის დღიდან 5 სამუშაო დღის განმავლობაში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 81,
+      "source": "8.3 In case if the Buyer fails to pay the product price within the time agreed in this Agreement, the Seller shall be entitledto impose the financial penalty on the Buyer in the amountof 0.01 %of the payable sum for each day of delay, until the performance of this obligation by the Buyer.",
+      "translated": "8.3 იმ შემთხვევაში, თუ მყიდველი ვერ გადაიხდის პროდუქტის ფასს ამ ხელშეკრულებით შეთანხმებულ ვადაში, გამყიდველს უფლება აქვს დააკისროს მყიდველს ფინანსური ჯარიმა გადასახდელი თანხის 0.01%-ის ოდენობით გადასახდელი თანხის ყოველი დაგვიანების დღისთვის, მყიდველის მიერ ამ ვალდებულების შესრულებამდე.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 82,
+      "source": "8.4 Iffor any reason the price cannot be determined,the Seller falls to deliver any one or more compliant consignments ofthe product when due, the Seller breaches any term of this Agreement, and/orthe Seller's financial worthiness becomes unsatisfactory to the Buyer, the Buyer shall have theright, In addition to all other remedies available toItunder the Agreement or at law or In equity, to (a) suspend or cancel the Agreement in wholeor in part, {b) suspend or cancel further payments to the Seller, (c) recover all payments whichit has already made tothe Seller, (d) refuse to accept further deliveries ofthe products, (e) recover fromthe Seller any expenditure Incurred by the Buyer In obtaining the products In substitution from another supplier, and/or (f) claim damages for any additional costs, losses or expenses incurred by the Buyer which are in any way attributableto the matters stated above, includingwithoutlimitation loss ofprofits and the cost ofcollection.",
+      "translated": "8.4 თუ რაიმე მიზეზით ფასის დადგენა შეუძლებელია, გამყიდველი ვერ შეძლებს პროდუქტის ერთი ან მეტი შესაბამისი პარტიის მიწოდებას ვადაში, გამყიდველი დაარღვევს ამ შეთანხმების რომელიმე პირობას და/ან გამყიდველის ფინანსური მდგომარეობა მყიდველისთვის არადამაკმაყოფილებელი გახდება, მყიდველს უფლება აქვს, შეთანხმებით ან კანონით ან სამართლიანობის პრინციპით გათვალისწინებული ყველა სხვა საშუალების გარდა, (ა) შეაჩეროს ან გააუქმოს შეთანხმება მთლიანად ან ნაწილობრივ, {ბ) შეაჩეროს ან გააუქმოს გამყიდველისთვის შემდგომი გადახდები, (გ) დაიბრუნოს ყველა გადახდა, რომელიც მან უკვე გადაუხადა გამყიდველს, (დ) უარი თქვას პროდუქციის შემდგომი მიწოდების მიღებაზე, (ე) გამყიდველისგან დაიბრუნოს ნებისმიერი ხარჯი, რომელიც მყიდველმა გაწია პროდუქციის სხვა მომწოდებლისგან ჩანაცვლებით მიღებისას და/ან (ვ) მოითხოვოს ზიანის ანაზღაურება მყიდველის მიერ გაწეული ნებისმიერი დამატებითი ხარჯისთვის, ზარალისთვის ან დანახარჯისთვის, რომელიც რაიმე ფორმით მიეწერება ზემოთ აღნიშნულ საკითხებს, მათ შორის, შეზღუდვის გარეშე, მოგების დაკარგვას და შეგროვების ხარჯებს.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 83,
+      "source": "8.5 The Buyer's liability and Seller's recovery, for any injuries, losses, damages, expenses, costs and/orotherliabilities occasioned by, arising outofand/orrelatingto any suspension or cancellation of this Agreement by the Buyer (including any refusal by the Buyer to accept deliveryofthe Products), any breach of the Agreement by the Buyer, and/or any other act or omission ofthe Buyer (Including Its negligence), shall be limitedto the lesser of (a) the actual and direct costs Incurred by Seller for its manufacture of the Products in questionpriorto such cancellation, breach, orother act or omission, or (b) the Price of the Products actually delivered pursuant to this Agreement. In no event shall the Buyer be liabletothe Seller for any punitive, special, consequential. indirect, exemplary and/orincidental damages, includingwithoutlimitation any loss of business, profit or goodwill. 8.6 W1tnout preiua1ce ana m auu1t1on to any otner prov1s1on or tne Agreement, tne ~ener will maemnny, no1a narm1ess ana, 11 applicable and upon the Buyer's request, defend at Seller's sole cost and expense, the Buyer, its agents, servants, officers, directors and employees, the Buyer's distributors, dealers and all entitieswhich purchase the Products orproductsintowhich the Products are incorporated, and their respective customers, harmless against any suit, action, proceeding, judgment,liability, cost. damage, loss, claim and expenses (includingwithoutlimitation loss ofprofits and the cost ofcollection) occasioned by, arising out of, relatingtoand/oralleging any claim for injury, death, damage or loss to any person or any property, breach of any guidelines, standards, laws or regulations, or any consequential orincidental damages resultingtherefrom, caused or contributedto by (a) any fault, defect or alleged defect in the Products (including by reason ofstrictliability in tort), {b} any breach by the Seller ofthe Contract, (c) any breach by the Seller ofapplicable guidelines, standards, laws or regulations, (d) any act, omission, fault, or negligence of Seller or anyone acting on Its behalf, and/or (e) any Infringement,misappropriationorotherviolationof the patent, trade secret, trademark, trade name, orotherintellectualpropertyrightof any other person, firm, corporation or otherentity arising fromthe manufacture, sale or use of any ofthe Products. In connectionwiththe Products or otherwise, Ifthe Seller's employees, agents, sub-contractors or other representatives are on or present at any premises of the Buyer, the Seller shall be and is responsible for the acts and omissions of such persons within or about the Buyer's premises and agrees toindemnify and hold the Buyer harmless against llabllltyfor damage to property or Injurytoor death of persons arising outof such acts or omissions of such persons. In the event ofa claim against the Buyer which may be the subject ofindemnification,the Buyer shall provide writtennotificationthereofto the Seller. The Seller shall providethe Buyer with such reasonable assistance in the prosecutionof any defense as the Buer may request. The Seller will, in respect of any claim or suit, reimburse the Buyer forthe legal and other actual defense expenses paid by the Buyer and/orthe Buyer's insurance carriers, and for the actual amountof any settlement or final judgment award paid by the Buyer and/or the Buyer's insurance carriers. Withoutprejudiceto the generalityoftheforegoing, the Seller shall indemnifythe Buyer against all actions, claims, demands, costs, charges and expenses arising from and/or incurred by reason of any Infringementor alleged Infringementofcopyright, patent, registered design orotherpropertyright.",
+      "translated": "8.5 მყიდველის პასუხისმგებლობა და გამყიდველის მიერ ანაზღაურება ნებისმიერი დაზიანების, დანაკარგის, ზიანის, ხარჯის, დანახარჯების და/ან სხვა ვალდებულებებისთვის, რომლებიც გამოწვეულია ან დაკავშირებულია მყიდველის მიერ ამ შეთანხმების ნებისმიერ შეჩერებასთან ან გაუქმებასთან (მათ შორის, მყიდველის მიერ პროდუქციის მიღებაზე უარის თქმასთან), შეთანხმების ნებისმიერ დარღვევასთან და/ან მყიდველის მიერ ნებისმიერი სხვა ქმედების ან უმოქმედობის (მათ შორის, მისი დაუდევრობის) შედეგად, შემოიფარგლება შემდეგი ოდენობით: (ა) გამყიდველის მიერ შესაბამისი პროდუქციის წარმოებისთვის გაწეული ფაქტობრივი და პირდაპირი ხარჯებით ასეთ გაუქმებამდე, დარღვევამდე, ან სხვა ქმედების ან უმოქმედობის განხორციელებამდე, ან (ბ) ამ შეთანხმების შესაბამისად ფაქტობრივად მიწოდებული პროდუქციის ფასით. არანაირ შემთხვევაში მყიდველი არ იქნება პასუხისმგებელი გამყიდველის წინაშე რაიმე სადამსჯელო, განსაკუთრებული, შედეგობრივი, არაპირდაპირი, სამაგალითო და/ან შემთხვევითი ზიანისთვის, მათ შორის, შეზღუდვის გარეშე, ბიზნესის, მოგების ან რეპუტაციის ნებისმიერი დანაკარგისთვის. 8.6 ნებისმიერი სხვა დებულების ან შეთანხმების დარღვევის გარეშე, მყიდველი, ნებისმიერი შესაბამისი დებულების დაცვით და მყიდველის მოთხოვნის შემთხვევაში, გამყიდველის ხარჯზე დაიცავს მყიდველს, მის აგენტებს, მოსამსახურეებს, თანამდებობის პირებს, დირექტორებსა და თანამშრომლებს, მყიდველის დისტრიბუტორებს, დილერებს და ყველა სუბიექტს, რომელიც ყიდულობს პროდუქტებს ან პროდუქტებს, რომლებშიც შედის პროდუქტები, და მათ შესაბამის მომხმარებლებს, ნებისმიერი სარჩელის, სარჩელის, სამართალწარმოების, გადაწყვეტილების, პასუხისმგებლობის ან ხარჯებისგან. ზიანი, დანაკარგი, მოთხოვნა და ხარჯები (მათ შორის, შეზღუდვის გარეშე, მოგების დაკარგვა და ამოღების ხარჯები), რომლებიც გამოწვეულია, წარმოიშობა, დაკავშირებულია და/ან განპირობებულია ნებისმიერი პრეტენზიით დაზიანების, სიკვდილის, ზიანის ან დანაკარგის შესახებ ნებისმიერი პირის ან ნებისმიერი ქონების, ნებისმიერი მითითებების, სტანდარტების, კანონების ან რეგულაციების დარღვევით, ან ნებისმიერი თანმდევი ან შემთხვევითი ზიანით, რომელიც გამოწვეულია ან ხელს უწყობს (ა) პროდუქტებში ნებისმიერი შეცდომით, დეფექტით ან სავარაუდო დეფექტით (მათ შორის, დელიქტის გამო), {ბ} გამყიდველის მიერ ხელშეკრულების ნებისმიერი დარღვევით, (გ) გამყიდველის მიერ მოქმედი მითითებების, სტანდარტების, კანონების ან რეგულაციების ნებისმიერი დარღვევით, (დ) გამყიდველის ან მისი სახელით მოქმედი ნებისმიერი პირის ნებისმიერი ქმედების, უმოქმედობის, ბრალეულობის ან დაუდევრობის და/ან (ე) ნებისმიერი სხვა პირის, ფირმის, კორპორაციის ან სხვა ერთეულის პატენტის, სავაჭრო საიდუმლოების, სავაჭრო ნიშნის, სავაჭრო სახელწოდების ან სხვა ინტელექტუალური საკუთრების უფლების ნებისმიერი დარღვევით, უკანონო მითვისებით ან სხვა დარღვევით, რომელიც წარმოიშობა ნებისმიერი პროდუქტის წარმოებიდან, გაყიდვიდან ან გამოყენებით. პროდუქტებთან დაკავშირებით ან სხვაგვარად, თუ გამყიდველის თანამშრომლები, აგენტები, სუბკონტრაქტორები ან სხვა წარმომადგენლები იმყოფებიან ან იმყოფებიან მყიდველის ნებისმიერ შენობაში, გამყიდველი იქნება პასუხისმგებელი ასეთი პირების ქმედებებსა და უმოქმედობაზე მყიდველის შენობაში ან მის მიმდებარე ტერიტორიაზე და თანახმაა, რომ აანაზღაუროს და დაიცვას მყიდველი პასუხისმგებლობისგან ქონების დაზიანების ან პირთა დაშავების ან გარდაცვალებისთვის, რაც გამოწვეულია ასეთი პირების ასეთი ქმედებებით ან უმოქმედობით. მყიდველის წინააღმდეგ პრეტენზიის შემთხვევაში, რომელიც შეიძლება იყოს ანაზღაურების საგანი, მყიდველი ვალდებულია წერილობით აცნობოს ამის შესახებ გამყიდველს. გამყიდველი ვალდებულია უზრუნველყოს მყიდველისთვის ისეთი გონივრული დახმარება ნებისმიერი დაცვის წარმოებაში, როგორც ამას მყიდველი მოითხოვს. გამყიდველი, ნებისმიერი პრეტენზიის ან სარჩელის მიმართ, აუნაზღაურებს მყიდველის და/ან მყიდველის სადაზღვევო კომპანიების მიერ გადახდილ იურიდიულ და სხვა ფაქტობრივ დაცვის ხარჯებს, ასევე მყიდველის და/ან მყიდველის სადაზღვევო კომპანიების მიერ გადახდილი ნებისმიერი ანგარიშსწორების ან საბოლოო გადაწყვეტილების ფაქტობრივ ოდენობას. ზემოაღნიშნულის ზოგადი ხასიათის შეუზღუდავად, გამყიდველი აანაზღაურებს მყიდველს ყველა სარჩელის, პრეტენზიის, მოთხოვნის, ხარჯის, გადასახადისა და დანახარჯისგან, რომელიც წარმოიშობა და/ან გაწეულია საავტორო უფლებების, პატენტის, რეგისტრირებული დიზაინის ან სხვა საკუთრების უფლების ნებისმიერი დარღვევის ან სავარაუდო დარღვევის გამო.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 84,
+      "source": "9. Article. Force-Majeure",
+      "translated": "9. მუხლი. დაუძლეველი ძალა",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 85,
+      "source": "9.1 The parties shall be released from performance oftheir respective obligationsunder this agreement in case and to the extentof force-majeure events, which shall include such circumstances originating beyond thewillof the respective party the controlof occurrence and operationofwhich goes beyond the reasonable abilitiesofthe relevant party, includingbutnotlimited to war, riots, civil disturbances, revolutions, strikes, lock-outs, accidents, fires, floods or other acts of god, embargoes, government actions, any legal or Illegal action or act of any third party, as a result of which performance ofobllgatlonsstipulatedunder the agreement becomes impossible. in addition, any amendment to Georgian law, whichdeteriorates legal positionof any party, affects the opportunityof performance of the obligation(s)to be fulfilled by the parties, the terms and/or expenses, includingbut not limitedto any unfavorable legal act and/oractionof any local, central, state, governmental, management, self-governmental, registeringorotherauthorities shall be deemed as force-majeure event. Any such force-majeure event shall release the parties from any llabllltyto each othertotheextentof such force-majeure event, and the term forparties' performance oftheirobligations under this agreement shall be extended fora period equal to the durationof such event.",
+      "translated": "9.1 მხარეები თავისუფლდებიან ამ შეთანხმებით გათვალისწინებული შესაბამისი ვალდებულებების შესრულებისგან დაუძლეველი ძალის შემთხვევების შემთხვევაში და მათი არსებობის ფარგლებში, რაც მოიცავს ისეთ გარემოებებს, რომლებიც წარმოიშობა შესაბამისი მხარის ნების მიღმა და რომელთა მოხდენისა და მოქმედების კონტროლი სცილდება შესაბამისი მხარის გონივრულ შესაძლებლობებს, მათ შორის, მაგრამ არა მხოლოდ, ომი, არეულობები, სამოქალაქო არეულობა, რევოლუციები, გაფიცვები, ლოკაუტები, უბედური შემთხვევები, ხანძარი, წყალდიდობა ან სხვა სტიქიური მოვლენები, ემბარგო, მთავრობის ქმედებები, ნებისმიერი მესამე მხარის ნებისმიერი კანონიერი ან უკანონო ქმედება ან ქმედება, რის შედეგადაც შეთანხმებით გათვალისწინებული ვალდებულების შესრულება შეუძლებელი ხდება. გარდა ამისა, საქართველოს კანონმდებლობის ნებისმიერი ცვლილება, რომელიც აუარესებს ნებისმიერი მხარის სამართლებრივ მდგომარეობას, გავლენას ახდენს მხარეთა მიერ შესასრულებელი ვალდებულების (ვალდებულებების) შესრულების შესაძლებლობაზე, ვადებზე და/ან ხარჯებზე, მათ შორის, მაგრამ არა მხოლოდ, ნებისმიერი არახელსაყრელი სამართლებრივი აქტი და/ან ნებისმიერი ადგილობრივი, ცენტრალური, სახელმწიფო, სამთავრობო, მმართველობის, თვითმმართველობის, მარეგისტრირებელი ან სხვა ორგანოების ქმედება, ჩაითვლება დაუძლეველ ძალად. ნებისმიერი ასეთი დაუძლეველი ძალა ათავისუფლებს მხარეებს ერთმანეთის მიმართ ნებისმიერი ვალდებულებისგან ასეთი დაუძლეველი ძალადობის მოვლენის ფარგლებში და მხარეთა მიერ ამ შეთანხმებით გათვალისწინებული ვალდებულებების შესრულების ვადა გაგრძელდება ასეთი მოვლენის ხანგრძლივობის ტოლი პერიოდით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 86,
+      "source": "9.2 The party affected by any force-majeure event shall notifytheotherparty in writing on the occurrence and endingof such event within no later than 2 (two) business days from its occurrence.",
+      "translated": "9.2 ნებისმიერი დაუძლეველი ძალის მოვლენით დაზარალებულმა მხარემ წერილობით უნდა აცნობოს მეორე მხარეს ასეთი მოვლენის დადგომისა და დასრულების შესახებ მისი დადგომიდან არაუგვიანეს 2 (ორი) სამუშაო დღისა.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 87,
+      "source": "9.3 The rights and obligationsof the parties shall resume from the date oftheterminationof force majeure.",
+      "translated": "9.3 მხარეთა უფლებები და ვალდებულებები აღდგება დაუძლეველი ძალის შეწყვეტის დღიდან.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 88,
+      "source": "10. Article. Confidentialinformation",
+      "translated": "10. მუხლი. კონფიდენციალური ინფორმაცია",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 89,
+      "source": "10.1 All information related to the activitiesof the Buyer that has been disclosed tothe Seller based on this Agreement, or throughoutthedurationof this Agreement, shall be considered as aconfidentialInformation. The confidentialInformation shall be the propertyofthe Buyer and any use, or transfer of such informationto any thirdparty shall be prohibited.",
+      "translated": "10.1 მყიდველის საქმიანობასთან დაკავშირებული ყველა ინფორმაცია, რომელიც გამყიდველისთვის ამ შეთანხმების საფუძველზე ან ამ შეთანხმების მოქმედების განმავლობაში იქნა გამჟღავნებული, ჩაითვლება კონფიდენციალურ ინფორმაციად. კონფიდენციალური ინფორმაცია მყიდველის საკუთრებაა და ასეთი ინფორმაციის ნებისმიერი გამოყენება ან გადაცემა მესამე მხარისთვის აკრძალულია.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 90,
+      "source": "10.2 The Seller shall protect the confidentialinformation, shall not copy or disclose by any means and shall take all adequate measures toprotecttheconfidentialityof the informationwhich has been disclosed tothe Seller based on this Agreement.",
+      "translated": "10.2 გამყიდველი ვალდებულია დაიცვას კონფიდენციალური ინფორმაცია, არ მოახდინოს მისი კოპირება ან გამჟღავნება რაიმე საშუალებით და მიიღოს ყველა ადეკვატური ზომა იმ ინფორმაციის კონფიდენციალურობის დასაცავად, რომელიც გამყიდველისთვის ამ შეთანხმების საფუძველზე იქნა გამჟღავნებული.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 91,
+      "source": "10.3 The Seller shall not disclose or transfer the confidentialinformationto any thirdpartywithoutpriorwritten consent of the Buyer. Except for the rules provided by the law, in case if the Seller is obligatedby the law to disclose the information, the Seller shall immediatelyinform the Buyer about receiving any request for the disclosure ofconfidentialinformation and shall take all adequate measures torestrict the access toconfidentialinformationwithin the terms allowed by the law. 10.4 Upon the terminationof this Agreement for any reason, or by the request of the Buyer, the Seller shall return all copies of such confidentialinformation and ensure the removal of such informationfrom its computers/programs and any other sources.",
+      "translated": "10.3 გამყიდველი არ გაამჟღავნებს ან არ გადასცემს კონფიდენციალურ ინფორმაციას მესამე პირს მყიდველის წინასწარი წერილობითი თანხმობის გარეშე. კანონით გათვალისწინებული წესების გარდა, იმ შემთხვევაში, თუ გამყიდველი კანონით ვალდებულია გაამჟღავნოს ინფორმაცია, გამყიდველი დაუყოვნებლივ აცნობებს მყიდველს კონფიდენციალური ინფორმაციის გამჟღავნების შესახებ ნებისმიერი მოთხოვნის მიღების შესახებ და მიიღებს ყველა ადეკვატურ ზომას კონფიდენციალურ ინფორმაციაზე წვდომის შეზღუდვის მიზნით კანონით დაშვებულ ვადებში. 10.4 ამ შეთანხმების ნებისმიერი მიზეზით შეწყვეტის შემთხვევაში ან მყიდველის მოთხოვნით, გამყიდველი დააბრუნებს ასეთი კონფიდენციალური ინფორმაციის ყველა ასლს და უზრუნველყოფს ასეთი ინფორმაციის ამოღებას თავისი კომპიუტერებიდან/პროგრამებიდან და ნებისმიერი სხვა წყაროდან.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 92,
+      "source": "11 Labor and Health safety",
+      "translated": "11 შრომისა და ჯანმრთელობის უსაფრთხოება",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 93,
+      "source": "11.1 The conditions set forth in this articleapplyto the Seller only in the event that the provision/deliveryof the Goods/ Materials based on this Agreement implies/includes the performance of any typeofworktowhichthelabor safety regulatory legislation of Georgia applies.",
+      "translated": "11.1 ამ მუხლში მითითებული პირობები გამყიდველზე ვრცელდება მხოლოდ იმ შემთხვევაში, თუ ამ ხელშეკრულების საფუძველზე საქონლის/მასალების მიწოდება/მიწოდება გულისხმობს/მოიცავს ნებისმიერი ტიპის სამუშაოს შესრულებას, რომელზეც ვრცელდება საქართველოს შრომის უსაფრთხოების მარეგულირებელი კანონმდებლობა.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 94,
+      "source": "11.2 The Seller shall complywith all applicable local leglslatlonof Georgia related tothe Health, Safety, Labor safety, Environmental Safety (hereinafterthe \"HSE\") includingbutnotlimited to Occupational Safety and Health Administration requirements, as well as theinstructionsof the Labor Inspection Office oftheMinistryofInternally Displaced Persons from the Occupied Territories, Labor, Health and Social Affairs of Georgia.",
+      "translated": "11.2 გამყიდველი ვალდებულია დაიცვას საქართველოს ყველა მოქმედი ადგილობრივი კანონმდებლობა, რომელიც ეხება ჯანმრთელობას, უსაფრთხოებას, შრომის უსაფრთხოებას, გარემოსდაცვით უსაფრთხოებას (შემდგომში „HSE“), მათ შორის, მაგრამ არა მხოლოდ, შრომის უსაფრთხოებისა და ჯანმრთელობის ადმინისტრირების მოთხოვნებს, ასევე საქართველოს ოკუპირებული ტერიტორიებიდან იძულებით გადაადგილებულ პირთა, შრომის, ჯანმრთელობისა და სოციალური დაცვის სამინისტროს შრომის ინსპექტირების ოფისის ინსტრუქციებს.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 95,
+      "source": "11.3 Safety Plan and Procedures: The Seller shall develop and implementa comprehensive safety plan that addresses the specific hazards associated with the project. The plan shall include safety procedures, risk assessments, emergency response protocols, and measures forongoing safety training and communication.",
+      "translated": "11.3 უსაფრთხოების გეგმა და პროცედურები: გამყიდველი შეიმუშავებს და განახორციელებს ყოვლისმომცველ უსაფრთხოების გეგმას, რომელიც მოიცავს პროექტთან დაკავშირებულ კონკრეტულ საფრთხეებს. გეგმა უნდა მოიცავდეს უსაფრთხოების პროცედურებს, რისკების შეფასებას, საგანგებო სიტუაციებზე რეაგირების პროტოკოლებს და უსაფრთხოების შესახებ მიმდინარე ტრენინგისა და კომუნიკაციის ზომებს.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 96,
+      "source": "11.4 Personal Protective Equipment (PPE): All workers hired by the Seller shall be providedwithappropriate personal protective equipment, such as hard hats, safety glasses, gloves, and safety shoes and etc., whatever Is required/relevant In accordance with the legislationof Georgia related tothelabor safety, includingbutnotlimitedto Occupational Safety and Health Administration requirements, as well as the laws Instructionsofthe Labor Inspection Office oftheMinistryofInternally Displaced Persons from the Occupied Territories, Labor, Health and Social Affairs of Georgia.",
+      "translated": "11.4 პირადი დამცავი აღჭურვილობა (PPE): გამყიდველის მიერ დაქირავებული ყველა მუშაკი უზრუნველყოფილი უნდა იყოს შესაბამისი პირადი დამცავი აღჭურვილობით, როგორიცაა ჩაფხუტი, დამცავი სათვალე, ხელთათმანები, დამცავი ფეხსაცმელი და ა.შ., რაც საჭიროა/შესაბამისია შრომის უსაფრთხოებასთან დაკავშირებული საქართველოს კანონმდებლობის შესაბამისად, მათ შორის, მაგრამ არა მხოლოდ, შრომის უსაფრთხოებისა და ჯანმრთელობის ადმინისტრაციის მოთხოვნებით, ასევე საქართველოს ოკუპირებული ტერიტორიებიდან იძულებით გადაადგილებულ პირთა, შრომის, ჯანმრთელობისა და სოციალური დაცვის სამინისტროს შრომის ინსპექტირების სამსახურის კანონმდებლობის ინსტრუქციებით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 97,
+      "source": "11.5 Site Safety Inspections: The Seller shall conduct regular Inspections ofthework site toIdentify and address any potential safety hazards promptly. Inspections may includebut are notlimitedto scaffolding, fall protection systems, electrical equipment, and machinery.",
+      "translated": "11.5 ობიექტის უსაფრთხოების შემოწმება: გამყიდველი ვალდებულია ჩაატაროს სამუშაო ობიექტის რეგულარული შემოწმება, რათა დროულად გამოავლინოს და მოაგვაროს ნებისმიერი პოტენციური საფრთხე უსაფრთხოებისთვის. შემოწმება შეიძლება მოიცავდეს, მაგრამ არ შემოიფარგლება მხოლოდ ხარაჩოებით, დაცემისგან დამცავი სისტემებით, ელექტრომოწყობილობებითა და დანადგარებით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 98,
+      "source": "11.6 Accident Reporting and Investigation: In the event of any work-related accidents, incidents, or near misses, the Seller shall promptlyreport them to the designated representative of the Buyer. The Seller shall also conductathoroughinvestigationto determinethe cause and implementcorrective measures to prevent future occurrences.",
+      "translated": "11.6 უბედური შემთხვევების შესახებ ანგარიშგება და გამოძიება: სამუშაოსთან დაკავშირებული ნებისმიერი უბედური შემთხვევის, ინციდენტის ან თითქმის ავარიის შემთხვევაში, გამყიდველი დაუყოვნებლივ აცნობებს მათ შესახებ მყიდველის დანიშნულ წარმომადგენელს. გამყიდველი ასევე ჩაატარებს საფუძვლიან გამოძიებას მიზეზის დასადგენად და მაკორექტირებელი ზომების განსახორციელებლად მომავალში მსგავსი შემთხვევების თავიდან ასაცილებლად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 99,
+      "source": "11. 7Subcontractor Compliance: The Seller shall ensure that all subcontractors (if any) engaged in theprojectcomplywith the HSE requirements set forth In this contract. The Seller shall maintaindocumentationofthesubcontractors' safety records, certifications, and training programs.",
+      "translated": "11. 7 სუბკონტრაქტორის შესაბამისობა: გამყიდველი უზრუნველყოფს, რომ პროექტში ჩართული ყველა სუბკონტრაქტორი (ასეთის არსებობის შემთხვევაში) აკმაყოფილებდეს ამ კონტრაქტით გათვალისწინებულ ჯანმრთელობისა და გარემოს დაცვის მოთხოვნებს. გამყიდველი ვალდებულია შეინარჩუნოს სუბკონტრაქტორების უსაფრთხოების ჩანაწერების, სერტიფიკატებისა და სასწავლო პროგრამების დოკუმენტაცია.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 100,
+      "source": "11.8 Safety Training: The Seller shall provide adequate safety trainingto all workers Involved In the project, Including orientationfor new hires and ongoingtraining sessions as necessary. The training shall cover hazard recognition,proper use of equipment, emergency procedures, and any specific safety protocols relevant tothe project.",
+      "translated": "11.8 უსაფრთხოების ტრენინგი: გამყიდველი ვალდებულია უზრუნველყოს პროექტში ჩართული ყველა მუშაკისთვის ადეკვატური უსაფრთხოების ტრენინგი, მათ შორის ახალი თანამშრომლებისთვის ორიენტაცია და საჭიროების შემთხვევაში მიმდინარე სასწავლო სესიები. ტრენინგი უნდა მოიცავდეს საფრთხეების ამოცნობას, აღჭურვილობის სწორად გამოყენებას, საგანგებო პროცედურებს და პროექტთან დაკავშირებულ ნებისმიერ კონკრეტულ უსაფრთხოების პროტოკოლს.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 101,
+      "source": "11.9 Work Suspension: In the event thata serious HSE safety violationorImminentdanger Is Identified,the Buyer or Its designated representative reserves the right to suspend workuntilthe safety concern is adequately addressed and resolved.",
+      "translated": "11.9 სამუშაოების შეჩერება: იმ შემთხვევაში, თუ გამოვლინდება ჯანმრთელობისა და გარემოს დაცვის უსაფრთხოების სერიოზული დარღვევა ან გარდაუვალი საფრთხე, მყიდველი ან მისი დანიშნული წარმომადგენელი იტოვებს უფლებას შეაჩეროს სამუშაოები მანამ, სანამ უსაფრთხოების საკითხი სათანადოდ არ იქნება განხილული და მოგვარებული.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 102,
+      "source": "11.1 O Buyer's rights: the Buyer shall be entitled to issue mandatoryinstructionstothe Seller ortheir representatives in respect with the HSE safety requirements and the Seller or their representatives shall strictlyfollow any such instruction. The Seller shall be liableforthe compliance with the Buyer's internal HSE safety policies and instructions, as communicated to the Seller from the Buyer's representatives.",
+      "translated": "11.1 მყიდველის უფლებები: მყიდველს უფლება აქვს, გამყიდველს ან მის წარმომადგენლებს გასცეს სავალდებულო ინსტრუქციები ჯანმრთელობისა და გარემოს დაცვის (HSE) უსაფრთხოების მოთხოვნებთან დაკავშირებით და გამყიდველი ან მისი წარმომადგენლები მკაცრად უნდა დაიცვან ნებისმიერი ასეთი ინსტრუქცია. გამყიდველი პასუხისმგებელია მყიდველის შიდა HSE უსაფრთხოების პოლიტიკისა და ინსტრუქციების დაცვაზე, როგორც ეს გამყიდველს მყიდველის წარმომადგენლებისგან ეცნობა.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 103,
+      "source": "11.11 HSE Officer: The Seller shall assign at least 1 person whowill be in charge ofthe HSE Safety duringthe provision of services. Such person designated by the Seller shall be dulycertified and accredited as per themandatory requirements ofthelegislationof Georgia, or by The National Examination Board In Occupational Safety and Health (NEBOSH) or by The Institutionof Occupational Safety and Health (IOSH). The HSE Officer of the Seller shall be directly and personally responsible for the ensuring of the HSE compliance with this contract, as well as the HSE requirementsofthe Georgian legislation.",
+      "translated": "11.11 ჯანმრთელობისა და უსაფრთხოების ოფიცერი: გამყიდველი დანიშნავს მინიმუმ 1 პირს, რომელიც პასუხისმგებელი იქნება ჯანმრთელობისა და უსაფრთხოების უსაფრთხოებაზე მომსახურების გაწევის დროს. გამყიდველის მიერ დანიშნული ასეთი პირი უნდა იყოს სათანადოდ სერტიფიცირებული და აკრედიტებული საქართველოს კანონმდებლობის სავალდებულო მოთხოვნების შესაბამისად, ან შრომის უსაფრთხოებისა და ჯანმრთელობის ეროვნული გამოცდების საბჭოს (NEBOSH) ან შრომის უსაფრთხოებისა და ჯანმრთელობის ინსტიტუტის (IOSH) მიერ. გამყიდველის ჯანმრთელობისა და უსაფრთხოების ოფიცერი პირდაპირ და პირადად იქნება პასუხისმგებელი ამ კონტრაქტის, ასევე საქართველოს კანონმდებლობის ჯანმრთელობისა და უსაფრთხოების მოთხოვნების დაცვის უზრუნველყოფაზე.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 104,
+      "source": "11.12 Work accident insurance: In case ifthe works carried out by the Seller qualify as an excessively dangerous, hard, harmful 11.13 In case ifthe services provided by the Seller, includes the carrying outof certain works as a result of which theindustrial waste is produced (including,butnotlimited to: construction waste, dangerous waste, etc.) the Seller shall be under the obligation to ensure, at its own cost, the removal of such waste from the Buyer's territory and the transportationand/or disposal of such waste as per the rules and procedures determined by the legislationof Georgia.",
+      "translated": "11.12 სამუშაო უბედური შემთხვევის დაზღვევა: იმ შემთხვევაში, თუ გამყიდველის მიერ შესრულებული სამუშაოები კვალიფიცირდება, როგორც ზედმეტად საშიში, მძიმე, მავნე. 11.13 იმ შემთხვევაში, თუ გამყიდველის მიერ მოწოდებული მომსახურება მოიცავს გარკვეული სამუშაოების შესრულებას, რომლის შედეგადაც წარმოიქმნება სამრეწველო ნარჩენები (მათ შორის, მაგრამ არა მხოლოდ: სამშენებლო ნარჩენები, საშიში ნარჩენები და ა.შ.), გამყიდველი ვალდებულია საკუთარი ხარჯებით უზრუნველყოს ასეთი ნარჩენების გატანა მყიდველის ტერიტორიიდან და მათი ტრანსპორტირება და/ან განადგურება საქართველოს კანონმდებლობით დადგენილი წესებისა და პროცედურების შესაბამისად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 105,
+      "source": "11.14 Indemnification: The Seller shall indemnify and hold harmless the Buyer from any claims, damages, costs, expenses, loss of profit/revenue, loss ofproduction, financial loss, loss of use, loss of raw materials, loss of contracts or otherIndirect damages and liabilities arising outofthe Seller's failuretocomplywith HSE requirements or any work-related accidents or injuriesresulting from such non-compliance. Such claims shall not be subject tothellabllltylimitation clauses thatmight be agreed by parties In this contract.",
+      "translated": "11.14 ზიანის ანაზღაურება: გამყიდველი აანაზღაურებს და ათავისუფლებს მყიდველს ნებისმიერი პრეტენზიისგან, ზიანისგან, ხარჯებისგან, დანახარჯებისგან, მოგების/შემოსავლის დაკარგვისგან, წარმოების დაკარგვისგან, ფინანსური ზარალისგან, გამოყენების დაკარგვისგან, ნედლეულის დაკარგვისგან, კონტრაქტების დაკარგვისგან ან სხვა არაპირდაპირი ზიანისა და ვალდებულებებისგან, რომლებიც წარმოიშობა გამყიდველის მიერ ჯანმრთელობისა და გარემოს დაცვის მოთხოვნების შეუსრულებლობის ან ასეთი შეუსრულებლობის შედეგად გამოწვეული ნებისმიერი სამუშაო უბედური შემთხვევის ან დაზიანებისგან. ასეთი პრეტენზიები არ ექვემდებარება მხარეთა მიერ ამ ხელშეკრულებით შეთანხმებულ შეზღუდვის პუნქტებს.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 106,
+      "source": "11.15 Financial Penalties for HSE Violations In additionto any Indemnification or liability provisions stated herein - the Buyer shall be entitledto impose the financial penalty on the Seller for each violationof the labor and health safety obligationsstipulated in this Article 11 and/orapplicable Georgian legislation. The penalties shall be calculated as follows: For thefirstviolation-a penalty equal tonot more than 1%ofthetotal value of this Agreement shall apply; For each subsequent violation-apenalty equal tonot more than 2% ofthetotal Agreement value shall apply per case. The Buyer shall be entitledtodeduct the imposed penaltyamount from any payables that Buyer owes tothe Seller under this Agreement or any other agreement between the parties.",
+      "translated": "11.15 ფინანსური ჯარიმები ჯანმრთელობისა და უსაფრთხოების ნორმების დარღვევისთვის. აქ მითითებული ნებისმიერი კომპენსაციის ან პასუხისმგებლობის დებულების გარდა, მყიდველს უფლება აქვს დააკისროს ფინანსური ჯარიმა გამყიდველს ამ მუხლი 11-ით და/ან საქართველოს მოქმედი კანონმდებლობით გათვალისწინებული შრომისა და ჯანმრთელობის უსაფრთხოების ვალდებულებების თითოეული დარღვევისთვის. ჯარიმები გამოითვლება შემდეგნაირად: პირველი დარღვევისთვის - დაწესდება ჯარიმა, რომელიც არ აღემატება ამ ხელშეკრულების მთლიანი ღირებულების 1%-ს; ყოველი შემდგომი დარღვევისთვის - დაწესდება ჯარიმა, რომელიც არ აღემატება ხელშეკრულების მთლიანი ღირებულების 2%-ს თითოეულ შემთხვევაში. მყიდველს უფლება აქვს, დაკისრებული ჯარიმის თანხა გამოაკლოს ნებისმიერი გადასახდელიდან, რომელიც მყიდველს აქვს გამყიდველისთვის ამ ხელშეკრულების ან მხარეებს შორის ნებისმიერი სხვა ხელშეკრულების შესაბამისად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 107,
+      "source": "12 Article. Legal effect and thedurationof the Agreement",
+      "translated": "მუხლი 12. შეთანხმების სამართლებრივი ძალა და მოქმედების ვადა",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 108,
+      "source": "12.1 This Agreement shall take legal effect on the day ofsigning by both parties and shall be validuntilthefull performance of the obligations by parties.",
+      "translated": "12.1 ეს შეთანხმება ძალაში შედის ორივე მხარის მიერ ხელმოწერის დღიდან და ძალაშია მხარეთა მიერ ნაკისრი ვალდებულებების სრულად შესრულებამდე.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 109,
+      "source": "12.2 This Agreement (as well as any other agreement associated with it) may be terminated based on thefollowing grounds:",
+      "translated": "12.2 ეს შეთანხმება (ისევე როგორც მასთან დაკავშირებული ნებისმიერი სხვა შეთანხმება) შეიძლება შეწყდეს შემდეგი საფუძვლების საფუძველზე:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 110,
+      "source": "12.2.1 Written agreement of the parties",
+      "translated": "12.2.1 მხარეთა წერილობითი შეთანხმება",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 111,
+      "source": "12.2.2 Full performance oftheobligations by parties",
+      "translated": "12.2.2 მხარეთა მიერ ვალდებულებების სრული შესრულება",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 112,
+      "source": "12.2.3 The Buyer shall be entitledtoterminate this Agreement",
+      "translated": "12.2.3 მყიდველს უფლება აქვს შეწყვიტოს ეს შეთანხმება",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 113,
+      "source": "prematurely, without any reason/ground, based on itsunilateral decision, by sending to the Seller the terminationnotice in written or electronic form, at least 14 calendar days before the termination date. In such case, the Buyer shall ensure the payment for the goods that were delivered by the Seller before the termination date.",
+      "translated": "ნაადრევად, ყოველგვარი მიზეზის/საფუძვლის გარეშე, თავისი ცალმხრივი გადაწყვეტილების საფუძველზე, გამყიდველისთვის შეწყვეტის შესახებ შეტყობინების წერილობითი ან ელექტრონული ფორმით გაგზავნით, შეწყვეტის თარიღამდე სულ მცირე 14 კალენდარული დღით ადრე. ასეთ შემთხვევაში, მყიდველი უზრუნველყოფს გამყიდველის მიერ შეწყვეტის თარიღამდე მიწოდებული საქონლის გადახდას.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 114,
+      "source": "12.2.4 In case due to the force majeure, parties are unable toperform the obligationsfor more than 1o days.",
+      "translated": "12.2.4 იმ შემთხვევაში, თუ დაუძლეველი ძალის გამო მხარეები ვერ შეძლებენ ვალდებულებების შესრულებას 10 დღეზე მეტი ხნის განმავლობაში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 115,
+      "source": "12.2.5 Each party shall be entitled to unilaterallyterminate this Agreement Ifthecounterparty falls to correct the performance defectwithin the additionaltimedetermined by thefirst party, or if the firstparty has lost interest in the correction and therefore the additionaltime is no longer relevant.",
+      "translated": "12.2.5 თითოეულ მხარეს უფლება აქვს ცალმხრივად შეწყვიტოს ეს შეთანხმება, თუ მეორე მხარე ვერ შეძლებს შესრულების დეფექტის გამოსწორებას პირველი მხარის მიერ განსაზღვრული დამატებითი ვადის განმავლობაში, ან თუ პირველმა მხარემ დაკარგა ინტერესი გამოსწორების მიმართ და, შესაბამისად, დამატებითი ვადა აღარ არის აქტუალური.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 116,
+      "source": "12.2.6 Each party shall be entitledtounilaterallyterminate this Agreement if the representations and warranties made underthis Agreement or any document exchanged by the parties turns outto be false, inaccurate or misleading.",
+      "translated": "12.2.6 თითოეულ მხარეს უფლება აქვს ცალმხრივად შეწყვიტოს ეს შეთანხმება, თუ ამ შეთანხმებით ან მხარეთა შორის გაცვლილი ნებისმიერი დოკუმენტით გაკეთებული განცხადებები და გარანტიები ყალბი, არაზუსტი ან შეცდომაში შემყვანი აღმოჩნდება.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 117,
+      "source": "12.3 The Buyer shall also be entitledtoterminate this Agreement unilaterallyif the Seller has passed away/is subject to liquidationorreorganization proceedings as per the law on entrepreneurs of Georgia or if it is subject to the insolvency proceedings",
+      "translated": "12.3 მყიდველს ასევე აქვს უფლება ცალმხრივად შეწყვიტოს ეს შეთანხმება, თუ გამყიდველი გარდაიცვალა/ექვემდებარება ლიკვიდაციის ან რეორგანიზაციის პროცესს „საქართველოს მეწარმეთა შესახებ“ კანონის შესაბამისად ან თუ იგი ექვემდებარება გადახდისუუნარობის პროცესს.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 118,
+      "source": "13 Article. Sanctions Compliance",
+      "translated": "მუხლი 13. სანქციების დაცვა",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 119,
+      "source": "13.1 Compliance with Sanctions Laws - Seller hereby represents and warrants that, in connectionwiththe performance ofthis Agreement, 1t snan comply w1tn an app11cao1e sanctions, exportcontrol laws, ana regu1at1ons, mc1ua1ng outnot 11m1tea to tnose administered by the United Nations, the United States Departmentof the Treasury's Office of Foreign Assets Control (OFAC), the European Union, United Kingdom and other relevant authorities(collectively, \"Sanctions Laws').",
+      "translated": "13.1 სანქციების შესახებ კანონმდებლობის დაცვა - გამყიდველი ამით აცხადებს და იძლევა გარანტიას, რომ ამ შეთანხმების შესრულებასთან დაკავშირებით, მე დაიცავ სანქციების, ექსპორტის კონტროლის კანონმდებლობის, სხვა რეგულაციების მოთხოვნებს, რომლებიც არ შემოიფარგლება გაერთიანებული ერების ორგანიზაციის, აშშ-ის ფინანსთა სამინისტროს უცხოური აქტივების კონტროლის ოფისის (OFAC), ევროკავშირის, გაერთიანებული სამეფოს და სხვა შესაბამისი ორგანოების მიერ ადმინისტრირებულ დებულებებს (ერთობლივად, „სანქციების შესახებ კანონმდებლობა“).",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 120,
+      "source": "13.2ProhibitedActivities- Seller shall not, directly or indirectly, engage in any transaction or perform any activityunderthis Agreement thatwould result in aviolationofapplicable Sanctions Laws by either party. This includes, but is notlimited to, dealing with persons, entities, or jurisdictions designated under Sanctions Laws as restricted orprohibited.",
+      "translated": "13.2 აკრძალული საქმიანობა - გამყიდველი არ უნდა ჩაერთოს, პირდაპირ ან ირიბად, რაიმე ტრანზაქციაში ან შეასრულოს ამ შეთანხმების შესაბამისად რაიმე საქმიანობა, რაც გამოიწვევს რომელიმე მხარის მიერ მოქმედი სანქციების შესახებ კანონების დარღვევას. ეს მოიცავს, მაგრამ არ შემოიფარგლება, იმ პირებთან, ერთეულებთან ან იურისდიქციებთან ურთიერთობას, რომლებიც სანქციების შესახებ კანონმდებლობით შეზღუდული ან აკრძალულია.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 121,
+      "source": "13.3 Representations and Warranties: Seller represents and warrants thatneither it, nor any of its affiliates, officers, directors, or employees:",
+      "translated": "13.3 განცხადებები და გარანტიები: გამყიდველი აცხადებს და იძლევა გარანტიას, რომ არც ის და არც მისი რომელიმე შვილობილი კომპანია, თანამდებობის პირი, დირექტორი ან თანამშრომელი:",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 122,
+      "source": "13.3.1 Is a designated targetunder Sanctions Laws (a \"Sanctioned Person')",
+      "translated": "13.3.1 წარმოადგენს თუ არა სანქციების შესახებ კანონმდებლობის მიხედვით დანიშნულ სამიზნეს („სანქცირებული პირი“)",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 123,
+      "source": "13.3.2 Is owned orcontrolled by, or acting on behalf of, a Sanctioned Person; or",
+      "translated": "13.3.2 ეკუთვნის ან აკონტროლებს სანქცირებული პირი ან მოქმედებს მისი სახელით; ან",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 124,
+      "source": "13.3.3 Is located, organized, or resident in acountryorterritorythat is the targetof comprehensive sanctions underapplicable Sanctions Laws.",
+      "translated": "13.3.3 მდებარეობს, ორგანიზებულია ან ცხოვრობს ქვეყანაში ან ტერიტორიაზე, რომელიც წარმოადგენს ყოვლისმომცველი სანქციების სამიზნეს მოქმედი სანქციების შესახებ კანონმდებლობის შესაბამისად.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 125,
+      "source": "13.4NotificationObligation- Seller agrees topromptlynotifythe Buyer partyifit becomes aware thatit or any ofitsaffiliates has become a Sanctioned Person or has otherwiseviolated any applicable Sanctions Laws in connectionwith this Agreement. 13.5 Termination Rights - In the event that Buyer reasonably determines thatthe Seller has breached this clause, it shall have the rightto suspend orterminate this Agreement Immediately upon written notice, without any llabllltyorobligationto the other party. 13.6Indemnification- Seller agrees to Indemnify, defend, and hold harmless the Buyer from and against any and all losses, damages, claims, or penalties arising outof or related totheindemnifying party's breach of this clause. 13.7 Transportation of Goods - If, under the terms of this Agreement, the Seller is responsible fortransporting the purchased Goods to the Buyer's address or any mutually agreed destination,the Seller shall also adhere to the followingobligations: 13.7.1Prohibited Routes - The Seller shall nottransport the goods throughtheterritoriesof the Russian Federation, the Islamic Republic of Iran, North Korea, or any othercountrycurrentlyunderinternational sanctions that may affect the deliveryof goods. 13.7.2 Route Confirmation- The Seller is obligatedtoprovide the Buyer withadetailedtransportationroutepriorto commencing the shipment and must obtainwrittenor e-mail confirmationof approval from the Buyer. Any deviationfromthe approved route shall be subjecttopriorwritten or e-mail consent from the Buyer. 13.7.3 Bank Suspension of Payment Due to Sanctions - In the event the Buyer's bank suspends payment due to sanctions or related compliance concerns, the Buyer shall not be subject to any penalties orliabilities,nor shall such suspension be deemed a breach ofthe Buyer's obligations under this Agreement. 13.7.4 Provision ofAdditionalInformation-If the Buyer's bank requests additionaldocumentation or Information related to the shipmentfor compliance purposes, the Seller shall promptlyprovide all requested information.Until such information is provided to the Buyer and approved by the bank, the Buyer shall not be held liablefor payment delays.",
+      "translated": "13.4 შეტყობინების ვალდებულება - გამყიდველი თანახმაა დაუყოვნებლივ აცნობოს მყიდველ მხარეს, თუ შეიტყობს, რომ ის ან მისი რომელიმე შვილობილი კომპანია გახდა სანქცირებული პირი ან სხვაგვარად დაარღვია ნებისმიერი მოქმედი სანქციების შესახებ კანონი ამ შეთანხმებასთან დაკავშირებით. 13.5 შეწყვეტის უფლებები - იმ შემთხვევაში, თუ მყიდველი გონივრულად დაადგენს, რომ გამყიდველმა დაარღვია ეს პუნქტი, მას უფლება აქვს შეაჩეროს ან შეწყვიტოს ეს შეთანხმება დაუყოვნებლივ წერილობითი შეტყობინებისთანავე, მეორე მხარისთვის რაიმე ვალდებულების გარეშე. 13.6 ზიანის ანაზღაურება - გამყიდველი თანახმაა აანაზღაუროს, დაიცვას და გაათავისუფლოს მყიდველი ნებისმიერი და ყველა დანაკარგისგან, ზიანისგან, პრეტენზიისგან ან ჯარიმისგან, რომელიც წარმოიშობა ან დაკავშირებულია ზიანის ანაზღაურების მიმღები მხარის მიერ ამ პუნქტის დარღვევასთან. 13.7 საქონლის ტრანსპორტირება - თუ ამ შეთანხმების პირობების თანახმად, გამყიდველი პასუხისმგებელია შეძენილი საქონლის მყიდველის მისამართზე ან ნებისმიერ ორმხრივად შეთანხმებულ დანიშნულების ადგილამდე ტრანსპორტირებაზე, გამყიდველი ასევე ვალდებულია დაიცვას შემდეგი ვალდებულებები: 13.7.1 აკრძალული მარშრუტები - გამყიდველი არ ახორციელებს საქონლის ტრანსპორტირებას რუსეთის ფედერაციის, ირანის ისლამური რესპუბლიკის, ჩრდილოეთ კორეის ან სხვა ნებისმიერი ქვეყნის ტერიტორიების გავლით, რომელიც ამჟამად საერთაშორისო სანქციების ქვეშაა, რამაც შეიძლება გავლენა მოახდინოს საქონლის მიწოდებაზე. 13.7.2 მარშრუტის დადასტურება - გამყიდველი ვალდებულია მიაწოდოს მყიდველს ტრანსპორტირების დაწყებამდე დეტალური სატრანსპორტო მარშრუტი და მყიდველისგან მიიღოს წერილობითი ან ელექტრონული ფოსტით დადასტურება. დამტკიცებული მარშრუტიდან ნებისმიერი გადახვევა ექვემდებარება მყიდველის წინასწარ წერილობით ან ელექტრონული ფოსტით თანხმობას. 13.7.3 გადახდის ბანკის მიერ შეჩერება სანქციების გამო - იმ შემთხვევაში, თუ მყიდველის ბანკი შეაჩერებს გადახდას სანქციების ან შესაბამისობასთან დაკავშირებული პრობლემების გამო, მყიდველი არ დაექვემდებარება რაიმე სახის ჯარიმას ან პასუხისმგებლობას და ასეთი შეჩერება არ ჩაითვლება მყიდველის მიერ ამ შეთანხმებით გათვალისწინებული ვალდებულებების დარღვევად. 13.7.4 დამატებითი ინფორმაციის მიწოდება - თუ მყიდველის ბანკი მოითხოვს დამატებით დოკუმენტაციას ან ინფორმაციას ტვირთთან დაკავშირებით შესაბამისობის მიზნით, გამყიდველი ვალდებულია დაუყოვნებლივ მიაწოდოს ყველა მოთხოვნილი ინფორმაცია. სანამ ასეთი ინფორმაცია არ მიეწოდება მყიდველს და არ დამტკიცდება ბანკის მიერ, მყიდველი არ იქნება პასუხისმგებელი გადახდის დაგვიანებაზე.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 126,
+      "source": "13.B The Seller additionally represents and warrants that any payment made tothe Seller under this agreement is solely for the benefitofthe Seller. No beneficiary of any such payments Is subject to any sanction, prohibition, or restriction(Including designation by the EU, UK, US and/or UN under any of the sanctions, laws, orregulationsofthe EU, UK, US and/or UN).",
+      "translated": "13.B გამყიდველი დამატებით აცხადებს და იძლევა გარანტიას, რომ ამ შეთანხმების ფარგლებში გამყიდველისთვის განხორციელებული ნებისმიერი გადახდა მხოლოდ გამყიდველის სასარგებლოდ ხორციელდება. ასეთი გადახდების არცერთი ბენეფიციარი არ ექვემდებარება რაიმე სანქციას, აკრძალვას ან შეზღუდვას (მათ შორის, ევროკავშირის, დიდი ბრიტანეთის, აშშ-ს და/ან გაეროს მიერ ევროკავშირის, დიდი ბრიტანეთის, აშშ-ს და/ან გაეროს ნებისმიერი სანქციის, კანონის ან რეგულაციის შესაბამისად დანიშვნას).",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 127,
+      "source": "14 Article. Final provisions",
+      "translated": "მუხლი 14. დასკვნითი დებულებები",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 128,
+      "source": "14.1 Amendments -Anyamendment in this Agreement is valid if executed in written form and signed by parties.",
+      "translated": "14.1 ცვლილებები - ამ შეთანხმებაში ნებისმიერი ცვლილება ძალაშია, თუ იგი გაფორმებულია წერილობითი ფორმით და ხელმოწერილია მხარეთა მიერ.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 129,
+      "source": "14.2Invalidity-If any provisionofthis Agreement is, or is held to be, invalidor unenforceable then, so far as it is invalid or unenforceable, it has no effect and is deemed notto be included in this Agreement providedthat this shall notinvalidate any of the remaining provisions of this Agreement and the parties shall use all reasonable endeavors to replace the invalid or unenforceable provision by a valid provision the effectofwhich is as close as possible to the intendedeffectof the invalid or unenforceable provision.",
+      "translated": "14.2 ბათილობა - თუ ამ შეთანხმების რომელიმე დებულება ბათილად ან აღუსრულებლად ითვლება ან აღიარებულია, მაშინ, რამდენადაც ის ბათილად ან აღუსრულებლად ითვლება, მას არანაირი ძალა არ აქვს და არ ჩაითვლება ამ შეთანხმებაში შეტანილად იმ პირობით, რომ ეს არ გააუქმებს ამ შეთანხმების დარჩენილ არცერთ დებულებას და მხარეები ყველა გონივრულ ძალისხმევას გამოიყენებენ, რათა ბათილად ან აღუსრულებლად დებულება ჩაანაცვლონ ისეთი მოქმედი დებულებით, რომლის ეფექტიც მაქსიმალურად ახლოს იქნება ბათილად ან აღუსრულებლად დებულების დანიშნულ ეფექტთან.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 130,
+      "source": "14.3 Attachments/Annexes - any attachments/annex annexed to this Agreement, shall constitute Its Integral part. In case of apparent discrepancy between the terms of the Agreement and the Annex, the later shall prevail. 14.4 Tn1s Agreement constitutes tne entire agreement ana unaerstana1ng or tne Parties w1tn regara to tne suDJect or tnis Agreement, and supersedes any and all otherprior agreements, bothwritten and oral, between the Parties with respect tothe subject matterofthis Agreement.",
+      "translated": "14.3 დანართები/დანართი - ამ შეთანხმებაზე დართული ნებისმიერი დანართი/დანართი წარმოადგენს მის განუყოფელ ნაწილს. ხელშეკრულებისა და დანართის პირობებს შორის აშკარა შეუსაბამობის შემთხვევაში, უპირატესობა ენიჭება ამ უკანასკნელს. 14.4 ეს შეთანხმება წარმოადგენს მთლიან შეთანხმებას და მხარეთა შორის არსებულ ან ამ შეთანხმებასთან დაკავშირებულ ყველა სხვა შეთანხმებას, როგორც წერილობით, ასევე ზეპირს, წინამდებარე შეთანხმების საგანთან დაკავშირებით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 131,
+      "source": "14.5 Assignment - The Seller shall not be entitledto assign itsrights and duties arising outof this Agreement to any thirdparty without the priorwritten or electronic approval of the Buyer.",
+      "translated": "14.5 უფლებამოსილების გადაცემა - გამყიდველს არ აქვს უფლება, ამ შეთანხმებიდან გამომდინარე თავისი უფლებები და მოვალეობები გადასცეს მესამე მხარეს მყიდველის წინასწარი წერილობითი ან ელექტრონული თანხმობის გარეშე.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 132,
+      "source": "14.6 Successors - All provisions ofthis Agreement shall remain valid and binding upon the legal successors and/or heirs ofthe Parties.",
+      "translated": "14.6 მემკვიდრეები - ამ შეთანხმების ყველა დებულება ძალაში რჩება და სავალდებულოა მხარეთა კანონიერი მემკვიდრეებისა და/ან მემკვიდრეებისთვის.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 133,
+      "source": "14.7 Waiver - No waiver of any provisionof the Agreement shall be valid orbinding on Buyer unless the waiver is made in writing and signed by an authorized representative of Buyer. No waiver by Buyer of any breach by the Seller shall be construed as a waiver of any succeeding breach of the same or any other term of the Agreement. No failureor delay on the part of Buyer in the exercise of any powerorright hereunder shall operate as a waiver of such power or right.Nothingcontained herein shall limit the remedies of Buyer In the event of the Seller's breach ofthe Agreement.",
+      "translated": "14.7 უარის თქმა - ხელშეკრულების არცერთ დებულებაზე უარის თქმა არ იქნება ძალაში ან სავალდებულო მყიდველისთვის, თუ უარის თქმა არ არის გაკეთებული წერილობით და ხელმოწერილი მყიდველის უფლებამოსილი წარმომადგენლის მიერ. მყიდველის მიერ გამყიდველის მიერ რაიმე დარღვევაზე უარის თქმა არ უნდა იქნას განმარტებული, როგორც ხელშეკრულების იმავე ან ნებისმიერი სხვა პირობის შემდგომ დარღვევაზე უარის თქმა. მყიდველის მიერ ამ ხელშეკრულებით გათვალისწინებული ნებისმიერი უფლებამოსილების ან უფლების განხორციელების შეუსრულებლობა ან შეფერხება არ ჩაითვლება ასეთ უფლებაზე ან უფლებაზე უარის თქმად. აქ მოცემული არაფერი არ ზღუდავს მყიდველის სამართლებრივი დაცვის საშუალებებს გამყიდველის მიერ ხელშეკრულების დარღვევის შემთხვევაში.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 134,
+      "source": "14.8 Disputes - any and all disputes in relationto this Agreement shall be settled through the amicable agreement of the parties. Any dispute arising from or in respect of this agreement, including any matter regarding existence, validity and termination ofthe agreement and/orarbitration clause shall be examined and finally decided on by the permanent courtofarbitration Dispute Resolution Center (Tbilisi, Georgia) the DRC, registration code 204547348 and having their registered offices at II floor, 71 Vazha- Pshavela Avenue and the web-site at WWW.DRC.GE).",
+      "translated": "14.8 დავები - ამ შეთანხმებასთან დაკავშირებული ნებისმიერი და ყველა დავა გადაწყდება მხარეთა შორის მშვიდობიანი შეთანხმებით. ამ შეთანხმებიდან გამომდინარე ან მასთან დაკავშირებით წარმოშობილი ნებისმიერი დავა, მათ შორის შეთანხმების და/ან არბიტრაჟის პუნქტის არსებობის, მოქმედებისა და შეწყვეტის შესახებ ნებისმიერი საკითხი, განიხილება და საბოლოოდ გადაწყდება მუდმივმოქმედი არბიტრაჟის სასამართლოს მიერ (თბილისი, საქართველო) DRC, რეგისტრაციის კოდი 204547348, რომლის იურიდიული მისამართია ვაჟა-ფშაველას გამზირი 71, II სართული და ვებგვერდი WWW.DRC.GE).",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 135,
+      "source": "14.9 The issues notregulated by this Agreement, shall be governed by theapplicable Georgian law.",
+      "translated": "14.9 საკითხები, რომლებიც არ რეგულირდება ამ შეთანხმებით, რეგულირდება საქართველოს მოქმედი კანონმდებლობით.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 136,
+      "source": "14.1 O In case of discrepancies between the languages, the text in English language shall prevail.",
+      "translated": "14.1 ენებს შორის შეუსაბამობის შემთხვევაში, უპირატესობა ენიჭება ინგლისურ ენაზე დაწერილ ტექსტს.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 137,
+      "source": "14.11 Nothing In the Contract shall create or be construed as creating a partnership, joint venture, acontractofemployment or relationshipofemployer and employee, orarelationshipofprincipal and agent between the Seller and the Buyer.",
+      "translated": "14.11 ხელშეკრულებაში არაფერი არ ქმნის ან არ შეიძლება იქნას განმარტებული, როგორც პარტნიორობის, ერთობლივი საწარმოს, დასაქმების ხელშეკრულების ან დამსაქმებლისა და თანამშრომლის ურთიერთობის, ან გამყიდველსა და მყიდველს შორის პრინციპალისა და აგენტის ურთიერთობის შექმნა.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 138,
+      "source": "14.12 This Agreement is executed in 2 copies, one for each party.",
+      "translated": "14.12 ეს შეთანხმება შედგენილია 2 ეგზემპლარად, თითო თითოეული მხარისთვის.",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 139,
+      "source": "#1 Annex Specific Commercial terms 1. Description of the purchased goods/materials: 2. Price: 3. Delivery term: 4. Delivery date: 5. Payment terms: Note: In the event thatthe Seller's failuretoprovidea Tax Residency Certificate in accordance with Clause 2.5 ofArticle2of the Standard Terms of this Agreement results in theimpositionof any tax on the Buyer based on thelegislationof Georgia, the Buyer shall have therighttowithholdtheamountof such tax from the amountof any fees payable to the Seller, before the Seller does not ensure thatthecertificate Is presented In the requested form. Upon Seller's deliveryofcertificate In the form requested by Buyer, Buyer shall reimburse Seller for any amountwithheld pursuant to this clause. For clarity, where no applicabledouble taxation avoidance agreement exists, the applicable withholding tax rate under Georgian legislation is currently 10%, or 15% in the case of Service Providers resident in offshore jurisdictions, as determined in accordance with Georgian law. 6. Warranty: 7. The Seller shall dispatch the original documents related to the goods and the shipmentof these goods tothe Buyer via DHUFedEx and by email to the following address: sanjay1.gupta@indorama.com 8. HS codes: 9. Other specific commercial terms (if applicable):",
+      "translated": "#1 დანართი სპეციფიკური კომერციული პირობები 1. შეძენილი საქონლის/მასალების აღწერა: 2. ფასი: 3. მიწოდების ვადა: 4. მიწოდების თარიღი: 5. გადახდის პირობები: შენიშვნა: იმ შემთხვევაში, თუ გამყიდველის მიერ საგადასახადო რეზიდენტობის სერტიფიკატის წარუდგენლობა ამ შეთანხმების სტანდარტული პირობების მე-2 მუხლის 2.5 პუნქტის შესაბამისად გამოიწვევს მყიდველისთვის ნებისმიერი გადასახადის დაკისრებას საქართველოს კანონმდებლობის საფუძველზე, მყიდველს უფლება აქვს, შეაკავოს ასეთი გადასახადის ოდენობა გამყიდველისთვის გადასახდელი ნებისმიერი საფასურის ოდენობიდან, სანამ გამყიდველი არ უზრუნველყოფს სერტიფიკატის წარდგენას მოთხოვნილი ფორმით. გამყიდველის მიერ სერტიფიკატის მყიდველის მიერ მოთხოვნილი ფორმით მიწოდების შემდეგ, მყიდველი აანაზღაურებს გამყიდველს ამ პუნქტის შესაბამისად შეკავებულ ნებისმიერ თანხას. სიცხადისთვის, იმ შემთხვევაში, თუ არ არსებობს ორმაგი დაბეგვრის თავიდან აცილების შესახებ ხელშეკრულება, საქართველოს კანონმდებლობით გათვალისწინებული მოქმედი შეკავების გადასახადის განაკვეთი ამჟამად 10%-ია, ან 15% ოფშორულ იურისდიქციებში რეზიდენტული მომსახურების მიმწოდებლების შემთხვევაში, როგორც ეს განსაზღვრულია საქართველოს კანონმდებლობის შესაბამისად. 6. გარანტია: 7. გამყიდველი გაუგზავნის საქონელთან დაკავშირებულ ორიგინალურ დოკუმენტებს და ამ საქონლის გადაზიდვას მყიდველს DHUFedEx-ის მეშვეობით და ელექტრონული ფოსტით შემდეგ მისამართზე: sanjay1.gupta@indorama.com 8. HS კოდები: 9. სხვა კონკრეტული კომერციული პირობები (ასეთის არსებობის შემთხვევაში):",
+      "target_language": "ka",
+      "status": "ok"
+    },
+    {
+      "block_id": 140,
+      "source": "Signatures: Buyer Seller Jay Prakash Jajoo BanK account aetans: 0 Bank name: 0Swift code: 0beneficiary name: 0 IBAN /----------------------/ /----------------------/",
+      "translated": "ხელმოწერები: მყიდველი გამყიდველი ჯეი პრაკაშ ჯაჯუ საბანკო ანგარიშის ნომერი: 0 ბანკის დასახელება: 0 Swift კოდი: 0 მიმღების დასახელება: 0 IBAN /-----------------------/ /----------------------/",
+      "target_language": "ka",
+      "status": "ok"
+    }
+  ],
+  "failed": 0
+}

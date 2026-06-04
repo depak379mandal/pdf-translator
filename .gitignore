@@ -1,0 +1,14 @@
+data/input/*
+!data/input/.gitkeep
+data/html/*
+!data/html/.gitkeep
+data/translated/*
+!data/translated/.gitkeep
+data/output/*
+!data/output/.gitkeep
+.env
+secrets/
+*.pyc
+__pycache__/
+node_modules/
+.DS_Store

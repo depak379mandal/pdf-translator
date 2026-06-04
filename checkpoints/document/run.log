@@ -1,0 +1,117 @@
+2026-06-04 18:15:04,336 INFO Step 1: Loading HTML and grouping paragraphs from /Users/danimai/work/transalate-pdf/data/html/document.html
+2026-06-04 18:15:04,420 INFO   Parsed 121 y-coordinate CSS rules
+2026-06-04 18:15:04,438 INFO   Found 5831 text nodes → 141 paragraph groups
+2026-06-04 18:15:04,512 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/01_paragraph_groups.json
+2026-06-04 18:15:07,419 INFO Step 2: Translating paragraph groups via Google Cloud
+2026-06-04 18:15:09,783 ERROR Pipeline failed
+Traceback (most recent call last):
+  File "/Users/danimai/work/transalate-pdf/translator_pipeline.py", line 490, in main
+    step_translate(cfg, logger)
+  File "/Users/danimai/work/transalate-pdf/translator_pipeline.py", line 286, in step_translate
+    client = create_translate_client()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danimai/work/transalate-pdf/translator_pipeline.py", line 276, in create_translate_client
+    return translate.Client(api_key=creds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'api_key'
+2026-06-04 18:15:19,621 INFO Step 2: Translating paragraph groups via Google Cloud
+2026-06-04 18:16:11,359 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/02_translations.json (141 ok, 0 failed)
+2026-06-04 18:16:18,590 INFO Step 3: Injecting translations into HTML
+2026-06-04 18:16:18,793 INFO   Injected 141 / 141 groups → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-04 18:16:18,895 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:16:21,514 ERROR Pipeline failed
+Traceback (most recent call last):
+  File "/Users/danimai/work/transalate-pdf/translator_pipeline.py", line 528, in main
+    step_pdf(cfg, logger)
+  File "/Users/danimai/work/transalate-pdf/translator_pipeline.py", line 452, in step_pdf
+    browser = p.chromium.launch(headless=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danimai/Library/Python/3.11/lib/python/site-packages/playwright/sync_api/_generated.py", line 16269, in launch
+    self._sync(
+  File "/Users/danimai/Library/Python/3.11/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/Users/danimai/Library/Python/3.11/lib/python/site-packages/playwright/_impl/_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "/Users/danimai/Library/Python/3.11/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danimai/Library/Python/3.11/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at /Users/danimai/Library/Caches/ms-playwright/chromium_headless_shell-1223/chrome-headless-shell-mac-arm64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2026-06-04 18:17:55,813 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:18:00,414 ERROR Pipeline failed
+Traceback (most recent call last):
+  File "/Users/danimai/work/transalate-pdf/translator_pipeline.py", line 528, in main
+    step_pdf(cfg, logger)
+  File "/Users/danimai/work/transalate-pdf/translator_pipeline.py", line 455, in step_pdf
+    page.emulate_media_type("print")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'emulate_media_type'
+2026-06-04 18:18:04,183 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:18:06,773 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-04 18:18:06,773 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-04 18:22:18,755 INFO Step 1: Loading HTML and grouping paragraphs from /Users/danimai/work/transalate-pdf/data/html/document.html
+2026-06-04 18:22:18,852 INFO   Parsed 121 y-coordinate CSS rules
+2026-06-04 18:22:18,872 INFO   Found 5831 text nodes → 141 paragraph groups
+2026-06-04 18:22:18,958 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/01_paragraph_groups.json
+2026-06-04 18:22:18,959 INFO Step 2: Translating paragraph groups via Google Cloud
+2026-06-04 18:23:09,150 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/02_translations.json (141 ok, 0 failed)
+2026-06-04 18:23:09,152 INFO Step 3: Injecting translations into HTML
+2026-06-04 18:23:09,379 INFO   Injected 141 / 141 groups → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-04 18:23:09,380 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:23:13,182 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-04 18:23:13,183 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-04 18:23:13,183 INFO Pipeline complete. Review checkpoints in /Users/danimai/work/transalate-pdf/checkpoints/document
+2026-06-04 18:37:30,040 INFO Step 3: Injecting translations (proportional line distribution)
+2026-06-04 18:37:30,215 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-04 18:37:30,391 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-04 18:37:30,594 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:37:35,901 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-04 18:37:35,901 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-04 18:44:07,654 INFO Step 3: Injecting translations (proportional line distribution)
+2026-06-04 18:44:07,859 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-04 18:44:08,037 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-04 18:44:08,231 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:44:13,632 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-04 18:44:13,633 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-04 18:44:28,244 INFO Step 1: Loading HTML and grouping paragraphs from /Users/danimai/work/transalate-pdf/data/html/document.html
+2026-06-04 18:44:28,371 INFO   Parsed 121 y-coordinate CSS rules
+2026-06-04 18:44:28,400 INFO   Found 5831 text nodes → 141 paragraph groups
+2026-06-04 18:44:28,522 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/01_paragraph_groups.json
+2026-06-04 18:44:28,523 INFO Step 2: Translating paragraph groups via Google Cloud
+2026-06-04 18:45:53,316 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/02_translations.json (141 ok, 0 failed)
+2026-06-04 18:45:53,320 INFO Step 3: Injecting translations (proportional line distribution)
+2026-06-04 18:45:53,548 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-04 18:45:53,725 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-04 18:45:53,726 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:46:01,370 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-04 18:46:01,371 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-04 18:46:01,372 INFO Pipeline complete. Review checkpoints in /Users/danimai/work/transalate-pdf/checkpoints/document
+2026-06-04 18:47:38,058 INFO Step 3: Injecting translations (one line per y-row)
+2026-06-04 18:47:38,252 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-04 18:47:38,436 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-04 18:47:38,617 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:47:43,821 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-04 18:47:43,822 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-04 18:48:05,496 INFO Step 1: Loading HTML and grouping paragraphs from /Users/danimai/work/transalate-pdf/data/html/document.html
+2026-06-04 18:48:05,583 INFO   Parsed 121 y-coordinate CSS rules
+2026-06-04 18:48:05,602 INFO   Found 5831 text nodes → 141 paragraph groups
+2026-06-04 18:48:05,683 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/01_paragraph_groups.json
+2026-06-04 18:48:05,683 INFO Step 2: Translating paragraph groups via Google Cloud
+2026-06-04 18:49:30,023 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/02_translations.json (141 ok, 0 failed)
+2026-06-04 18:49:30,033 INFO Step 3: Injecting translations (one line per y-row)
+2026-06-04 18:49:30,192 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-04 18:49:30,342 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-04 18:49:30,344 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-04 18:49:34,670 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-04 18:49:34,670 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-04 18:49:34,671 INFO Pipeline complete. Review checkpoints in /Users/danimai/work/transalate-pdf/checkpoints/document

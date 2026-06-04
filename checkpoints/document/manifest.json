@@ -1,0 +1,26 @@
+{
+  "step_group": {
+    "paragraph_count": 141,
+    "text_nodes": 5831
+  },
+  "updated_at": "2026-06-04T13:19:34.671542+00:00",
+  "name": "document",
+  "input_html": "/Users/danimai/work/transalate-pdf/data/html/document.html",
+  "step_translate": {
+    "total": 141,
+    "failed": 0
+  },
+  "step_html": {
+    "injected": 141,
+    "multi_line_blocks": 75,
+    "distribution": "/Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json",
+    "output": "/Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html"
+  },
+  "step_pdf": {
+    "checkpoint": "/Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf",
+    "output": "/Users/danimai/work/transalate-pdf/data/output/document.pdf"
+  },
+  "started_at": "2026-06-04T13:18:05.495819+00:00",
+  "target_lang": "ka",
+  "source_lang": null
+}

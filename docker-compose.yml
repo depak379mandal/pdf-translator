@@ -1,0 +1,35 @@
+services:
+  # Step 1: PDF → HTML (layout-preserving). Official pdf2htmlEX image; data/ is synced via volume.
+  pdf2html:
+    image: pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-alpine-3.12.0-x86_64
+    platform: linux/amd64
+    volumes:
+      - ./data:/workspace
+    working_dir: /workspace
+    entrypoint: ["pdf2htmlEX"]
+
+  # Step 2: Translate HTML text nodes (default target: Georgian / ka).
+  translator:
+    build:
+      context: ./docker/translator
+    volumes:
+      - ./data:/workspace
+      - ${GCP_CREDENTIALS_PATH:-/dev/null}:/secrets/gcp-credentials.json:ro
+    environment:
+      SOURCE_LANG: ${SOURCE_LANG:-auto}
+      TARGET_LANG: ${TARGET_LANG:-ka}
+      TRANSLATOR: ${TRANSLATOR:-google}
+      DEEPL_API_KEY: ${DEEPL_API_KEY:-}
+      GOOGLE_APPLICATION_CREDENTIALS: /secrets/gcp-credentials.json
+
+  # Step 3: Translated HTML → PDF via headless Chromium.
+  renderer:
+    build:
+      context: ./docker/renderer
+    platform: linux/amd64
+    volumes:
+      - ./data:/workspace
+    environment:
+      PDF_FORMAT: ${PDF_FORMAT:-A4}
+      PRINT_BACKGROUND: ${PRINT_BACKGROUND:-true}
+      SCALE_FONT: ${SCALE_FONT:-1}
