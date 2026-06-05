@@ -115,3 +115,135 @@ AttributeError: 'Page' object has no attribute 'emulate_media_type'
 2026-06-04 18:49:34,670 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
 2026-06-04 18:49:34,670 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
 2026-06-04 18:49:34,671 INFO Pipeline complete. Review checkpoints in /Users/danimai/work/transalate-pdf/checkpoints/document
+2026-06-05 10:20:43,663 INFO Step 3: Injecting translations (one line per y-row)
+2026-06-05 10:20:43,857 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:20:44,048 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:20:44,227 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:20:48,159 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:20:48,159 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:21:14,148 INFO Step 3: Injecting translations (one line per y-row)
+2026-06-05 10:21:14,334 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:21:14,519 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:21:14,735 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:21:18,423 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:21:18,424 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:30:06,715 INFO Step 3: Injecting translations (one line per y-row)
+2026-06-05 10:30:06,905 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:30:07,088 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:30:07,325 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:30:11,157 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:30:11,158 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:33:30,272 INFO Step 3: Injecting translations (proportional line distribution)
+2026-06-05 10:33:30,451 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:33:30,638 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:33:30,865 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:33:35,069 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:33:35,069 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:33:53,526 INFO Step 3: Injecting translations (proportional line distribution)
+2026-06-05 10:33:53,704 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:33:53,889 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:33:54,066 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:33:58,182 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:33:58,183 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:34:16,995 INFO Step 3: Injecting translations (proportional line distribution)
+2026-06-05 10:34:17,171 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:34:17,354 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:34:17,538 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:34:21,848 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:34:21,848 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:36:29,137 INFO Step 3: Injecting translations (proportional + width wrap reflow)
+2026-06-05 10:36:29,345 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:36:29,565 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:36:29,799 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:36:34,257 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:36:34,257 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:37:02,654 INFO Step 3: Injecting translations (proportional + width wrap reflow)
+2026-06-05 10:37:02,870 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:37:03,120 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:37:03,358 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:37:07,457 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:37:07,457 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:37:37,307 INFO Step 3: Injecting translations (proportional + width wrap reflow)
+2026-06-05 10:37:37,522 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:37:37,720 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:37:37,909 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:37:42,189 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:37:42,189 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:41:01,102 INFO Step 3: Injecting translations (relative chain + width wrap)
+2026-06-05 10:41:01,321 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:41:01,528 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:41:01,861 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:41:06,448 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:41:06,448 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:43:48,239 INFO Step 3: Injecting translations (relative chain + width wrap)
+2026-06-05 10:43:48,462 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:43:48,657 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:43:49,139 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:43:53,592 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:43:53,593 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:44:29,827 INFO Step 3: Injecting translations (relative chain + width wrap)
+2026-06-05 10:44:30,054 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:44:30,255 INFO   Injected 141 / 141 groups (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:44:30,441 INFO Step 4: Converting HTML to PDF with Playwright
+2026-06-05 10:44:34,708 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:44:34,708 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:49:51,801 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:49:51,981 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:49:51,983 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:49:52,148 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:49:55,352 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:49:55,352 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:50:19,223 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:50:19,407 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:50:19,408 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:50:19,592 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:50:21,970 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:50:21,970 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:54:57,363 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:54:57,546 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:54:57,550 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:54:57,737 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:55:00,218 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:55:00,218 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:55:06,663 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:55:06,844 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:55:06,847 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:55:07,027 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:55:08,821 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:55:08,821 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:55:16,272 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:55:16,451 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:55:16,456 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:55:16,629 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:55:18,578 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:55:18,578 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:55:39,522 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:55:39,705 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:55:39,710 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:55:39,886 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:55:42,104 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:55:42,104 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:57:21,140 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:57:21,322 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:57:21,338 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:57:21,531 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:57:23,849 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:57:23,849 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:57:31,313 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:57:31,498 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:57:31,515 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:57:31,698 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:57:33,639 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:57:33,639 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:57:40,184 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:57:40,361 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:57:40,377 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:57:40,566 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:57:42,320 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:57:42,320 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf
+2026-06-05 10:57:57,021 INFO Step 3: Building flowing HTML (no page frames)
+2026-06-05 10:57:57,205 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json
+2026-06-05 10:57:57,220 INFO   Built flowing document: 141 / 141 paragraphs (75 multi-line) → /Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html
+2026-06-05 10:57:57,415 INFO Step 4: Converting flowing HTML to PDF with Playwright
+2026-06-05 10:57:59,761 INFO   Checkpoint: /Users/danimai/work/transalate-pdf/checkpoints/document/04_final.pdf
+2026-06-05 10:57:59,761 INFO   Output: /Users/danimai/work/transalate-pdf/data/output/document.pdf

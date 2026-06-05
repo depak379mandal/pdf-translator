@@ -3,7 +3,7 @@
     "paragraph_count": 141,
     "text_nodes": 5831
   },
-  "updated_at": "2026-06-04T13:19:34.671542+00:00",
+  "updated_at": "2026-06-05T05:27:59.761481+00:00",
   "name": "document",
   "input_html": "/Users/danimai/work/transalate-pdf/data/html/document.html",
   "step_translate": {
@@ -13,6 +13,7 @@
   "step_html": {
     "injected": 141,
     "multi_line_blocks": 75,
+    "layout_mode": "flowing",
     "distribution": "/Users/danimai/work/transalate-pdf/checkpoints/document/03a_distribution.json",
     "output": "/Users/danimai/work/transalate-pdf/checkpoints/document/03_translated.html"
   },

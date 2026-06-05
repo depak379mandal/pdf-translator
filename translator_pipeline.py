@@ -9,6 +9,7 @@ Checkpoint files are written under checkpoints/<name>/ for review between steps.
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import logging
 import os
@@ -44,10 +45,16 @@ PAGE_HEIGHT_PATTERN = re.compile(
     r"\.(h[0-9a-z]+)\s*\{[^}]*?height\s*:\s*(-?[0-9.]+)\s*(px|pt)",
     re.IGNORECASE,
 )
-
+FONT_SIZE_PATTERN = re.compile(
+    r"\.(fs[0-9a-z]+)\s*\{[^}]*?font-size\s*:\s*(-?[0-9.]+)\s*(px|pt)",
+    re.IGNORECASE,
+)
+MATRIX_SCALE_PATTERN = re.compile(
+    r"\.(m[0-9a-z]+)\s*\{[^}]*?transform\s*:\s*matrix\(\s*(-?[0-9.]+)",
+    re.IGNORECASE,
+)
 GEORGIAN_FONT_STYLE = """
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap');
-@page { size: A4; margin: 0; }
 .t, .t span, .t * {
   font-family: 'Noto Sans Georgian', Arial, sans-serif !important;
   visibility: visible !important;
@@ -58,13 +65,48 @@ GEORGIAN_FONT_STYLE = """
   visibility: visible !important;
   font-family: 'Noto Sans Georgian', Arial, sans-serif !important;
 }
-.pf .t {
-  white-space: pre !important;
+"""
+
+FLOWING_DOCUMENT_CSS = """
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap');
+@page {
+  size: A4;
+  margin: 10mm 14mm 14mm 14mm;
 }
-@media print {
-  .pf { page-break-after: always; overflow: hidden; }
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Noto Sans Georgian', Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #000;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+p {
+  margin: 0;
+  overflow-wrap: anywhere;
 }
 """
+
+HEADING_PATTERN = re.compile(
+    r"^\d+(?:\.\d+)*\.?\s*(?:Article|მუხლი\b)",
+    re.IGNORECASE,
+)
+FLOW_BODY_LEFT_PX = 26.0
+FLOW_CENTER_X_RATIO = 0.38
+FLOW_INDENT_DIVISOR = 14.0
+FLOW_GAP_EM_FACTOR = 0.38
+FLOW_EMPHASIS_FONT_PX = 12.5
+
+# pdf2htmlEX duplicates coordinates in pt inside @media print; pt bottoms exceed page
+# height and clip/squash text when Playwright uses print media.
+PRINT_PT_COORD_RULE = re.compile(
+    r"\.[yxwh][0-9a-z]+\{[^}]*(?:bottom|left|width|height)\s*:[^;}]*pt[^;}]*;?[^}]*\}",
+    re.IGNORECASE,
+)
 
 STEPS = ("group", "translate", "html", "pdf", "all")
 STEP_ORDER = ["group", "translate", "html", "pdf"]
@@ -121,17 +163,29 @@ class LayoutMaps:
     x: dict[str, float]
     page_width: dict[str, float]
     page_height: dict[str, float]
+    line_height: dict[str, float]
+    font_size: dict[str, float]
+    matrix_scale: dict[str, float]
     side_margin: float
 
     def max_text_width_px(self, node: Tag) -> float:
         page = _find_page_frame(node)
         pw = self.page_width.get(page, 774.0)
         left = self._node_left(node)
-        return max(80.0, pw - left - self.side_margin)
+        right_pad = max(8.0, pw - max(self.x.values(), default=left) - 4.0)
+        return max(80.0, pw - left - min(self.side_margin, right_pad))
 
     def _node_left(self, node: Tag) -> float:
         x_class = next((c for c in node.get("class", []) if c.startswith("x")), None)
         return self.x.get(x_class, self.side_margin) if x_class else self.side_margin
+
+
+@dataclass
+class PageReflowState:
+    """Tracks rendered bottom on a page so the next block chains relatively."""
+
+    last_bottom: float | None = None
+    last_y_class: str | None = None
 
 
 @dataclass
@@ -222,6 +276,16 @@ def _find_page_frame(node: Tag) -> str:
     return "w0"
 
 
+def _find_page_id(node: Tag) -> str:
+    parent = node.parent
+    while parent is not None:
+        page_id = parent.get("id", "")
+        if parent.name == "div" and page_id.startswith("pf"):
+            return page_id
+        parent = parent.parent
+    return "pf0"
+
+
 def _class_px_only(css_text: str, pattern: re.Pattern[str]) -> dict[str, float]:
     """Parse CSS rules; prefer px over pt when both exist for the same class."""
     out: dict[str, float] = {}
@@ -245,6 +309,11 @@ def parse_layout_maps(soup: BeautifulSoup) -> LayoutMaps:
         x=x_map,
         page_width=_class_px_only(css_text, PAGE_WIDTH_PATTERN),
         page_height=_class_px_only(css_text, PAGE_HEIGHT_PATTERN),
+        line_height=_class_px_only(css_text, PAGE_HEIGHT_PATTERN),
+        font_size=_class_px_only(css_text, FONT_SIZE_PATTERN),
+        matrix_scale={
+            cls: float(val) for cls, val in MATRIX_SCALE_PATTERN.findall(css_text)
+        },
         side_margin=side_margin,
     )
 
@@ -452,85 +521,421 @@ def rebuild_groups_for_inject(
     return groups
 
 
-def _line_max_width_px(line_nodes: list[Tag], layout: LayoutMaps) -> float:
-    """Usable width from the leftmost fragment to the symmetric right margin."""
-    leftmost = min(layout._node_left(n) for n in line_nodes)
-    page = _find_page_frame(line_nodes[0])
-    pw = layout.page_width.get(page, 774.0)
-    return max(80.0, pw - leftmost - layout.side_margin)
-
-
-def _estimate_max_chars(line_nodes: list[Tag], layout: LayoutMaps) -> int:
-    """One visual line per div.t — match original line length, capped by page width."""
-    max_width = _line_max_width_px(line_nodes, layout)
-    source_len = max(len(" ".join(n.get_text(strip=True) for n in line_nodes)), 1)
-    width_cap = max(12, int(max_width / 6.0))
-    return min(source_len, width_cap)
-
-
-def distribute_to_line_slots(
-    group: ParagraphGroup,
-    translated: str,
-    layout: LayoutMaps,
-) -> list[str]:
-    """Fill each original y-row with a single line of text (no in-node line breaks)."""
+def distribute_proportional(group: ParagraphGroup, translated: str) -> list[str]:
+    """Split translated text across original lines by proportional source capacity."""
     if not group.nodes:
         return []
 
-    limits = [_estimate_max_chars(line_nodes, layout) for line_nodes in group.nodes]
+    line_capacities: list[int] = []
+    for line_nodes in group.nodes:
+        line_str = " ".join(n.get_text(strip=True) for n in line_nodes)
+        line_capacities.append(max(len(line_str), 1))
+
+    total_capacity = sum(line_capacities)
     words = translated.split()
     if not words:
         return [""] * len(group.nodes)
 
-    distributed: list[str] = []
+    total_trans_chars = sum(len(w) for w in words) + max(0, len(words) - 1)
+    distributed_lines: list[str] = []
     word_idx = 0
 
-    for limit in limits:
-        parts: list[str] = []
-        used = 0
+    for i in range(len(group.nodes)):
+        if i == len(group.nodes) - 1:
+            distributed_lines.append(" ".join(words[word_idx:]))
+            break
+
+        target_len = (line_capacities[i] / total_capacity) * total_trans_chars
+        current_line_words: list[str] = []
+        current_len = 0
+
         while word_idx < len(words):
             word = words[word_idx]
-            add_len = len(word) + (1 if parts else 0)
-            if parts and used + add_len > limit:
+            if current_len + len(word) > target_len and current_len > 0:
                 break
-            parts.append(word)
-            used += add_len
+            current_line_words.append(word)
+            current_len += len(word) + 1
             word_idx += 1
-        distributed.append(" ".join(parts))
 
-    if word_idx < len(words):
-        remainder = " ".join(words[word_idx:])
-        if distributed:
-            distributed[-1] = f"{distributed[-1]} {remainder}".strip()
+        distributed_lines.append(" ".join(current_line_words))
+
+    while len(distributed_lines) < len(group.nodes):
+        distributed_lines.append("")
+
+    return distributed_lines
+
+
+def _char_width_px(node: Tag, layout: LayoutMaps) -> float:
+    fs_class = next((c for c in node.get("class", []) if c.startswith("fs")), None)
+    m_class = next((c for c in node.get("class", []) if c.startswith("m")), None)
+    font_size = layout.font_size.get(fs_class, 14.0)
+    scale = layout.matrix_scale.get(m_class, 0.325)
+    width_factor = float(os.getenv("GEORGIAN_WIDTH_FACTOR", "1.05"))
+    return max(4.0, font_size * scale * 0.52 * width_factor)
+
+
+def _source_line_gap(
+    layout: LayoutMaps,
+    y_top: str,
+    y_bottom: str,
+    default: float = 16.0,
+) -> float:
+    """Vertical distance between two source baselines (pdf2html bottom coords)."""
+    top = layout.y.get(y_top)
+    bottom = layout.y.get(y_bottom)
+    if top is None or bottom is None:
+        return default
+    return max(12.0, top - bottom)
+
+
+def _wrap_words_to_width(words: list[str], max_chars: int) -> list[str]:
+    lines: list[str] = []
+    current: list[str] = []
+    current_len = 0
+    for word in words:
+        add_len = len(word) + (1 if current else 0)
+        if current and current_len + add_len > max_chars:
+            lines.append(" ".join(current))
+            current = [word]
+            current_len = len(word)
         else:
-            distributed.append(remainder)
+            current.append(word)
+            current_len += add_len
+    if current:
+        lines.append(" ".join(current))
+    return lines or [""]
 
-    while len(distributed) < len(group.nodes):
-        distributed.append("")
 
-    return distributed[: len(group.nodes)]
+def _remove_wrap_spill_nodes(anchor: Tag) -> None:
+    for sib in list(anchor.next_siblings):
+        if not isinstance(sib, Tag):
+            continue
+        if sib.name == "div" and "pipeline-wrap" in sib.get("class", []):
+            sib.decompose()
+            continue
+        if sib.name == "div" and "t" in sib.get("class", []):
+            break
+
+
+def _set_node_bottom(node: Tag, layout: LayoutMaps, bottom_px: float) -> None:
+    left = layout._node_left(node)
+    node["style"] = f"bottom:{bottom_px:.3f}px;left:{left:.3f}px"
+
+
+def _clone_wrap_node(soup: BeautifulSoup, template: Tag, text: str) -> Tag:
+    spill = soup.new_tag("div")
+    classes = list(template.get("class", []))
+    if "pipeline-wrap" not in classes:
+        classes.append("pipeline-wrap")
+    spill["class"] = classes
+    if text:
+        spill.string = text
+    return spill
+
+
+def _wrap_step_for_slot(
+    layout: LayoutMaps,
+    y_classes: list[str],
+    slot: int,
+) -> float:
+    if slot < len(y_classes) - 1:
+        return _source_line_gap(layout, y_classes[slot], y_classes[slot + 1])
+    if slot > 0:
+        return _source_line_gap(layout, y_classes[slot - 1], y_classes[slot])
+    return 16.0
+
+
+def _anchor_bottom_for_line(
+    layout: LayoutMaps,
+    cursor: PageReflowState,
+    y_class: str,
+    *,
+    cross_page: bool,
+) -> float:
+    """Place line relative to previous node on this page, preserving source y-gap."""
+    original = layout.y.get(y_class, 0.0)
+    if cross_page:
+        return original
+    if (
+        cursor.last_bottom is not None
+        and cursor.last_y_class
+        and y_class
+    ):
+        gap = _source_line_gap(layout, cursor.last_y_class, y_class)
+        return cursor.last_bottom - gap
+    return original
 
 
 def inject_distributed_lines(
     group: ParagraphGroup,
     distributed_lines: list[str],
     layout: LayoutMaps,
-) -> None:
-    """Place each logical line in the first div.t only; wrap inside max-width box."""
+    soup: BeautifulSoup,
+    page_states: dict[str, PageReflowState],
+) -> list[dict[str, Any]]:
+    """Inject with width wrap; each node chains below the previous on the same page."""
+    wrap_records: list[dict[str, Any]] = []
+    prev_page_id: str | None = None
+
     for i, line_nodes in enumerate(group.nodes):
         if not line_nodes:
             continue
+
         chunk = distributed_lines[i] if i < len(distributed_lines) else ""
         first = line_nodes[0]
+        page_id = _find_page_id(first)
+        cursor = page_states.setdefault(page_id, PageReflowState())
+        _remove_wrap_spill_nodes(first)
+
+        max_width = layout.max_text_width_px(first)
+        char_w = _char_width_px(first, layout)
+        safety = float(os.getenv("WRAP_SAFETY_FACTOR", "0.92"))
+        max_chars = max(8, int((max_width / char_w) * safety))
+        wrapped = _wrap_words_to_width(chunk.split(), max_chars) if chunk else [""]
+
+        y_class = group.y_classes[i] if i < len(group.y_classes) else ""
+        cross_page = i > 0 and prev_page_id is not None and page_id != prev_page_id
+        anchor_bottom = _anchor_bottom_for_line(
+            layout, cursor, y_class, cross_page=cross_page
+        )
+        wrap_step = _wrap_step_for_slot(layout, group.y_classes, i)
+
         first.clear()
-        if chunk:
-            first.string = chunk
-        max_width = _line_max_width_px(line_nodes, layout)
-        style = first.get("style", "")
-        extra = f"max-width:{max_width:.1f}px;white-space:pre"
-        first["style"] = f"{style};{extra}".strip(";") if style else extra
+        if wrapped[0]:
+            first.string = wrapped[0]
+        _set_node_bottom(first, layout, anchor_bottom)
+
         for node in line_nodes[1:]:
             node.clear()
+            if node.get("style"):
+                del node["style"]
+
+        ref = first
+        line_bottom = anchor_bottom
+        for wi, line_text in enumerate(wrapped[1:], 1):
+            spill = _clone_wrap_node(soup, first, line_text)
+            spill_bottom = line_bottom - wrap_step
+            _set_node_bottom(spill, layout, spill_bottom)
+            ref.insert_after(spill)
+            ref = spill
+            line_bottom = spill_bottom
+
+        cursor.last_bottom = line_bottom
+        if y_class:
+            cursor.last_y_class = y_class
+        prev_page_id = page_id
+
+        if len(wrapped) > 1:
+            wrap_records.append(
+                {
+                    "slot": i,
+                    "page_id": page_id,
+                    "wrap_lines": len(wrapped),
+                    "spill_rows": len(wrapped) - 1,
+                    "anchor_bottom": anchor_bottom,
+                    "wrap_step": wrap_step,
+                    "max_chars": max_chars,
+                    "cross_page": cross_page,
+                }
+            )
+
+    return wrap_records
+
+
+def _strip_print_pt_coordinates(css_text: str) -> str:
+    """Drop pt-based layout rules inside @media print so px coordinates are used."""
+    if "@media print" not in css_text:
+        return css_text
+
+    out: list[str] = []
+    i = 0
+    while i < len(css_text):
+        start = css_text.find("@media print", i)
+        if start == -1:
+            out.append(css_text[i:])
+            break
+        out.append(css_text[i:start])
+        brace = css_text.find("{", start)
+        if brace == -1:
+            out.append(css_text[start:])
+            break
+        depth = 0
+        j = brace
+        while j < len(css_text):
+            ch = css_text[j]
+            if ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+                if depth == 0:
+                    break
+            j += 1
+        print_block = css_text[start : j + 1]
+        out.append(PRINT_PT_COORD_RULE.sub("", print_block))
+        i = j + 1
+    return "".join(out)
+
+
+def _page_sort_key(page_id: str) -> int:
+    if page_id.startswith("pf"):
+        suffix = page_id[2:] or "0"
+        try:
+            return int(suffix, 16)
+        except ValueError:
+            return 0
+    return 0
+
+
+def _sort_groups_visually(
+    groups: list[ParagraphGroup],
+    layout: LayoutMaps,
+) -> list[ParagraphGroup]:
+    """Order blocks top-to-bottom per page (matches source PDF reading order)."""
+    return sorted(
+        groups,
+        key=lambda g: (
+            _page_sort_key(_find_page_id(g.nodes[0][0])),
+            -layout.y.get(g.y_classes[0], 0.0),
+        ),
+    )
+
+
+def _is_heading_paragraph(text: str) -> bool:
+    stripped = text.strip()
+    if not stripped:
+        return False
+    if HEADING_PATTERN.search(stripped):
+        return True
+    return len(stripped) < 72 and stripped.endswith(".") and stripped[0].isdigit()
+
+
+def _same_page(prev: ParagraphGroup, curr: ParagraphGroup) -> bool:
+    return _find_page_id(prev.nodes[-1][0]) == _find_page_id(curr.nodes[0][0])
+
+
+def _vertical_gap_px(
+    layout: LayoutMaps,
+    top_y: str,
+    bottom_y: str,
+) -> float | None:
+    top = layout.y.get(top_y)
+    bottom = layout.y.get(bottom_y)
+    if top is None or bottom is None:
+        return None
+    return abs(top - bottom)
+
+
+def _line_font_px(node: Tag, layout: LayoutMaps) -> float:
+    fs_class = next((c for c in node.get("class", []) if c.startswith("fs")), None)
+    m_class = next((c for c in node.get("class", []) if c.startswith("m")), None)
+    font_size = layout.font_size.get(fs_class, 42.0)
+    scale = layout.matrix_scale.get(m_class, 0.325)
+    return font_size * scale
+
+
+def _gap_to_margin_em(gap_px: float) -> float:
+    em = gap_px / 16.0 * FLOW_GAP_EM_FACTOR
+    if gap_px < 20:
+        return max(0.04, em)
+    if gap_px > 55:
+        return max(em, 0.75)
+    return em
+
+
+def _flow_line_style(
+    group: ParagraphGroup,
+    line_idx: int,
+    prev_ref: tuple[ParagraphGroup, int] | None,
+    layout: LayoutMaps,
+    text: str,
+) -> str:
+    """Map source x/y coordinates to inline paragraph style (same rule everywhere)."""
+    node = group.nodes[line_idx][0]
+    styles: list[str] = []
+
+    if prev_ref is not None:
+        prev_group, prev_idx = prev_ref
+        prev_node = prev_group.nodes[prev_idx][0]
+        if _find_page_id(prev_node) == _find_page_id(node):
+            prev_y = prev_group.y_classes[prev_idx]
+            curr_y = group.y_classes[line_idx]
+            gap = _vertical_gap_px(layout, prev_y, curr_y)
+            if gap is not None:
+                styles.append(f"margin-top:{_gap_to_margin_em(gap):.2f}em")
+
+    left = layout._node_left(node)
+    page = _find_page_frame(node)
+    page_w = layout.page_width.get(page, 774.0)
+
+    font_px = _line_font_px(node, layout)
+
+    if left >= page_w * FLOW_CENTER_X_RATIO:
+        styles.append("text-align:center")
+        styles.append("font-weight:700")
+        if font_px > 12.0:
+            styles.append(f"font-size:{font_px / 12.0:.3f}em")
+    elif left > FLOW_BODY_LEFT_PX + 25:
+        indent = (left - FLOW_BODY_LEFT_PX) / FLOW_INDENT_DIVISOR
+        styles.append(f"padding-left:{indent:.2f}em")
+        styles.append("text-align:left")
+    else:
+        styles.append("text-align:justify")
+
+    if _is_heading_paragraph(text):
+        styles.append("font-weight:700")
+    elif font_px >= FLOW_EMPHASIS_FONT_PX + 2.0:
+        styles.append(f"font-size:{font_px / 12.0:.3f}em")
+
+    return ";".join(styles)
+
+
+def build_flowing_html(
+    groups: list[ParagraphGroup],
+    translations: dict[int, str],
+    layout: LayoutMaps,
+) -> str:
+    """Build continuous HTML; one line per source row using coordinate rules only."""
+    parts = [
+        "<!DOCTYPE html>",
+        '<html lang="ka">',
+        "<head>",
+        '<meta charset="utf-8"/>',
+        "<title>Translated document</title>",
+        "<style>",
+        FLOWING_DOCUMENT_CSS,
+        "</style>",
+        "</head>",
+        "<body>",
+    ]
+
+    ordered = _sort_groups_visually(groups, layout)
+    prev_ref: tuple[ParagraphGroup, int] | None = None
+
+    for group in ordered:
+        translated = translations.get(group.block_id, "").strip()
+        if not translated or not group.nodes:
+            continue
+
+        if len(group.nodes) == 1:
+            line_texts = [translated]
+        else:
+            line_texts = distribute_proportional(group, translated)
+
+        for line_idx, line_nodes in enumerate(group.nodes):
+            if not line_nodes:
+                continue
+            line_text = line_texts[line_idx] if line_idx < len(line_texts) else ""
+            line_text = line_text.strip()
+            if not line_text:
+                continue
+
+            style = _flow_line_style(group, line_idx, prev_ref, layout, line_text)
+            style_attr = f' style="{style}"' if style else ""
+            parts.append(f"<p{style_attr}>{html.escape(line_text)}</p>")
+            prev_ref = (group, line_idx)
+
+    parts.extend(["</body>", "</html>"])
+    return "\n".join(parts) + "\n"
 
 
 def apply_display_fixes(soup: BeautifulSoup) -> BeautifulSoup:
@@ -539,6 +944,7 @@ def apply_display_fixes(soup: BeautifulSoup) -> BeautifulSoup:
             continue
         text = style.string.replace("visibility:hidden", "visibility:visible")
         text = re.sub(r"color:\s*transparent", "color:#000", text, flags=re.IGNORECASE)
+        text = _strip_print_pt_coordinates(text)
         style.string = text
 
     if soup.head is None:
@@ -550,8 +956,10 @@ def apply_display_fixes(soup: BeautifulSoup) -> BeautifulSoup:
 
     if not soup.find("style", id="pipeline-display-fix"):
         tag = soup.new_tag("style", id="pipeline-display-fix")
-        tag.string = GEORGIAN_FONT_STYLE
         soup.head.append(tag)
+
+    fix_tag = soup.find("style", id="pipeline-display-fix")
+    fix_tag.string = GEORGIAN_FONT_STYLE
 
     html = str(soup)
     html = re.sub(r'<img[^>]*class="bi[^"]*"[^>]*/?\s*>', "", html, flags=re.IGNORECASE)
@@ -560,7 +968,7 @@ def apply_display_fixes(soup: BeautifulSoup) -> BeautifulSoup:
 
 
 def step_html(cfg: Config, logger: logging.Logger) -> Path:
-    logger.info("Step 3: Injecting translations (one line per y-row)")
+    logger.info("Step 3: Building flowing HTML (no page frames)")
     if not cfg.translations_json.exists():
         raise FileNotFoundError(f"Run --step translate first. Missing {cfg.translations_json}")
 
@@ -570,13 +978,9 @@ def step_html(cfg: Config, logger: logging.Logger) -> Path:
         if b.get("status") == "ok" and b.get("translated")
     }
 
-    ratio_threshold = float(os.getenv("LENGTH_RATIO_THRESHOLD", "1.8"))
-    font_scale_min = float(os.getenv("FONT_SCALE_MIN", "0.85"))
-
     soup = BeautifulSoup(cfg.input_html.read_text(encoding="utf-8", errors="replace"), "lxml")
     layout = parse_layout_maps(soup)
-    y_coords = layout.y
-    groups = rebuild_groups_for_inject(soup, y_coords, cfg.gap_min, cfg.gap_max)
+    groups = rebuild_groups_for_inject(soup, layout.y, cfg.gap_min, cfg.gap_max)
 
     distribution_records: list[dict] = []
     injected = 0
@@ -587,34 +991,26 @@ def step_html(cfg: Config, logger: logging.Logger) -> Path:
         if not translated or not group.nodes:
             continue
 
-        distributed = distribute_to_line_slots(group, translated, layout)
-        inject_distributed_lines(group, distributed, layout)
-
+        distributed = distribute_proportional(group, translated)
         source_len = len(group.source_text or "")
         trans_len = len(translated)
         if len(group.nodes) > 1:
             multi_line_blocks += 1
 
-        record: dict = {
-            "block_id": group.block_id,
-            "line_count": len(group.nodes),
-            "line_capacities": [
-                max(len(" ".join(n.get_text(strip=True) for n in line)), 1)
-                for line in group.nodes
-            ],
-            "distributed_lines": distributed,
-            "source_text_len": source_len,
-            "translated_text_len": trans_len,
-        }
-
-        if source_len > 0 and trans_len / source_len > ratio_threshold and len(group.nodes) == 1:
-            scale = min(1.0, font_scale_min * (source_len / trans_len) + (1 - source_len / trans_len))
-            first = group.nodes[0][0]
-            existing = first.get("style", "")
-            first["style"] = f"{existing};font-size:{scale:.3f}em".strip(";")
-            record["font_scale_applied"] = scale
-
-        distribution_records.append(record)
+        distribution_records.append(
+            {
+                "block_id": group.block_id,
+                "line_count": len(group.nodes),
+                "line_capacities": [
+                    max(len(" ".join(n.get_text(strip=True) for n in line)), 1)
+                    for line in group.nodes
+                ],
+                "distributed_lines": distributed,
+                "source_text_len": source_len,
+                "translated_text_len": trans_len,
+                "layout_mode": "flowing",
+            }
+        )
         injected += 1
 
     cfg.distribution_json.write_text(
@@ -623,10 +1019,10 @@ def step_html(cfg: Config, logger: logging.Logger) -> Path:
     )
     logger.info("  Checkpoint: %s", cfg.distribution_json)
 
-    soup = apply_display_fixes(soup)
-    cfg.translated_html.write_text(str(soup), encoding="utf-8")
+    flowing_html = build_flowing_html(groups, translations, layout)
+    cfg.translated_html.write_text(flowing_html, encoding="utf-8")
     logger.info(
-        "  Injected %d / %d groups (%d multi-line) → %s",
+        "  Built flowing document: %d / %d paragraphs (%d multi-line) → %s",
         injected,
         len(groups),
         multi_line_blocks,
@@ -637,6 +1033,7 @@ def step_html(cfg: Config, logger: logging.Logger) -> Path:
         step_html={
             "injected": injected,
             "multi_line_blocks": multi_line_blocks,
+            "layout_mode": "flowing",
             "distribution": str(cfg.distribution_json),
             "output": str(cfg.translated_html),
         },
@@ -645,7 +1042,7 @@ def step_html(cfg: Config, logger: logging.Logger) -> Path:
 
 
 def step_pdf(cfg: Config, logger: logging.Logger) -> Path:
-    logger.info("Step 4: Converting HTML to PDF with Playwright")
+    logger.info("Step 4: Converting flowing HTML to PDF with Playwright")
     if not cfg.translated_html.exists():
         raise FileNotFoundError(f"Run --step html first. Missing {cfg.translated_html}")
 
@@ -655,16 +1052,9 @@ def step_pdf(cfg: Config, logger: logging.Logger) -> Path:
     DEFAULT_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     cfg.checkpoint_dir.mkdir(parents=True, exist_ok=True)
 
-    source_html = cfg.input_html if cfg.input_html.exists() else cfg.translated_html
-    layout = parse_layout_maps(
-        BeautifulSoup(source_html.read_text(encoding="utf-8", errors="replace"), "lxml"),
-    )
-    page_w = int(layout.page_width.get("w0", 774))
-    page_h = int(layout.page_height.get("h0", 1095))
-
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page(viewport={"width": page_w, "height": page_h})
+        page = browser.new_page()
         page.goto(file_url, wait_until="networkidle", timeout=120_000)
         try:
             page.emulate_media(media="print")
@@ -677,8 +1067,7 @@ def step_pdf(cfg: Config, logger: logging.Logger) -> Path:
             "prefer_css_page_size": True,
         }
         if cfg.pdf_format.lower() == "auto":
-            pdf_opts["width"] = f"{page_w}px"
-            pdf_opts["height"] = f"{page_h}px"
+            pdf_opts["format"] = "A4"
         else:
             pdf_opts["format"] = cfg.pdf_format
         page.pdf(**pdf_opts)
